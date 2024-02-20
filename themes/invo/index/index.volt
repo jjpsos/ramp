@@ -1,5 +1,5 @@
 <div class="jumbotron">
-    <h1>Welcome to Contractor</h1>
+    <h1>Welcome to Contractor-Development</h1>
     <p>Automate recurring service contracts, invoices, and receipts for commercial contractors.</p>
     <p>{{ link_to('register', 'Try it for Free &raquo;', 'class': 'btn btn-primary btn-large btn-success') }}</p>
 </div>
