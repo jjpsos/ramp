@@ -10,6 +10,10 @@ try {
     $rootPath = realpath('..');
     require_once $rootPath . '/vendor/autoload.php';
 
+    
+    // Debugging jjpsos
+    (new Phalcon\Support\Debug())->listen();
+
     /**
      * Load ENV variables
      */
