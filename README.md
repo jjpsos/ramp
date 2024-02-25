@@ -15,6 +15,10 @@ or start from its base INVO application:
 3. Edit .env file with your DB connection information
 4. Run DB migrations `vendor/bin/phalcon-migrations run --config=migrations.php`
 
+## Documentation
+
+https://leanpub.com/ramp 
+
 ## License
 
 Contractor is open-sourced software licensed under the MIT License. 
