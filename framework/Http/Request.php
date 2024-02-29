@@ -1,0 +1,3 @@
+<?php
+
+// Request Class Template
