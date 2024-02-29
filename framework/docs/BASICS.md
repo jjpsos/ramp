@@ -132,26 +132,7 @@ First, add the image to the "Resources" folder for your book. You will find the 
 
 If you look in your book's "Resources" folder right now, you will see that there is an example image there with the file name "palm-trees.jpg". Here's how you can add this image to your book:
 
-![](palm-trees.jpg)
-
-If you want to add a figure title, you put it in quotes:
-
-![](palm-trees.jpg "Palm Trees")
-
-If you want to add descriptive alt text, which is good for accessibility, you put it between the square brackets:
-
-![a picture of palm trees against a blue sky](palm-trees.jpg "Palm Trees")
-
-You can also set the alt text and/or the figure title in an attribute list:
-
-{alt: "a picture of palm trees against a blue sky", title: "Palm Trees"}
-![](palm-trees.jpg)
-
-Finally, if no title is provided, and the `alt-title` document setting is the default of `all`, the alt text will be used as the figure title instead of as alt text.
-
-![Palm Trees](palm-trees.jpg)
-
-You can set the important document settings at Settings > Generation Settings.
+(see Leanpub documentation)
 
 ## Lists
 
@@ -190,8 +171,7 @@ You can add code samples really easily. Code can be in separate files (a "local"
 
 Here's a local code resource:
 
-{format: ruby}
-![Hello World in Ruby](hello.rb)
+(see Leanpub documentation)
 
 ### Inline Code Samples
 
@@ -234,39 +214,7 @@ Definition lists are preferred to tables for most use cases, since reading a lar
 
 ## Math
 
-You can easily insert math equations inline using either spans or figures.
-
-Here's one of the kinematic equations `d = v_i t + \frac{1}{2} a t^2`$ inserted as a span inside a sentence.
-
-Here's some math inserted as a figure.
-
-{title: "Something Involving Sums"}
-```latexmath
-\left|\sum_{i=1}^n a_ib_i\right|
-\le
-\left(\sum_{i=1}^n a_i^2\right)^{1/2}
-\left(\sum_{i=1}^n b_i^2\right)^{1/2}
-```
-
 ## Headings
-
-Markua supports both of Markdown's heading styles.
-
-The preferred style, called atx headers, has the following meaning in Markua:
-
-```
-{class: part}
-# Part
-
-This is a paragraph.
-
-# Chapter
-
-This is a paragraph.
-
-## Section
-
-This is a paragraph.
 
 ### Sub-section
 
@@ -291,73 +239,5 @@ inline code (instead of actually like headers).
 The other style of headers, called Setext headers, has the following headings:
 
 ```
-{class: part}
-Part
-====
-
-This is a paragraph.
-
-Chapter
-=======
-
-This is a paragraph.
-
-Section
--------
-
-This is a paragraph.
-```
-
-Setext headers look nice, but only if you're only using chapters and sections.
-If you want to add sub-sections (or lower), you'll be using atx headers for at
-least some of your headers. My advice is to just use atx headers all the time.
-(The `{class: part}` attribute list on a chapter header to make a part header
-does actually work with Setext headers, but it's really ugly.)
-
-Note that while it is confusing and ugly to mix and match using atx and Setext
-headers for chapters and sections in the same document, you can do it. However, please don't.
-
 ## Block quotes, Asides and Blurbs
-
-> Block quotes are really easy too.
->
-> --Peter Armstrong, *Markua Spec*
-
-A> Asides are useful
-A> for longer text.
-A>
-A> But typing them like this
-A> isn't fun.
-
-{aside}
-Asides can be written this way, since adding a bunch of A> stuff at the beginning of each line can get annoying with longer asides.
-{/aside}
-
-B> Blurbs are useful
-
-{blurb}
-Blurbs are useful
-{/blurb}
-
-There are many types of blurbs, which will be familiar to you if you've ever read a computer programming book.
-
-D> This is a discussion.
-
-You can also specify them this way:
-
-{blurb, class: discussion}
-This is a discussion
-{/blurb}
-
-E> This is an error.
-
-I> This is information.
-
-Q> This is a question. (Not a question in a Markua course; those are done differently!)
-
-T> This is a tip.
-
-W> This is a warning.
-
-X> This is an exercise. (Not an exercise in a Markua course; those are done differently!)
 
