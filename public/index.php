@@ -13,6 +13,7 @@ try {
     
     // Debugging jjpsos
     (new Phalcon\Support\Debug())->listen();
+    echo "Hello World";
 
     /**
      * Load ENV variables
