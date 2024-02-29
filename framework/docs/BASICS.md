@@ -156,12 +156,7 @@ You make a bulleted list like this:
 
 You can even have definition lists!
 
-term 1
-: definition 1a
-: definition 1b
-
-term 2
-: definition 2
+(see Leanpub documentation)
 
 ## Code Samples
 
