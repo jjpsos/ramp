@@ -35,4 +35,30 @@ The folder structure will be important here because we are creating framework fi
 
 Namespaces are used to keep the code organized and to avoid naming conflicts.
 
+*  "Invo\\": "src/"
+*  "App\\": "src/app/",
+*  "JimSos\\Framework\\": "framework/"
+
 For example, you may have a set of classes which describe an HTML table, such as Table, Row and Cell while also having another set of classes to describe furniture, such as Table, Chair and Bed. Namespaces can be used to organize the classes into two different groups while also preventing the two classes Table and Table from being mixed up.
+
+# (3) Application Structure
+
+Now that the basic setup is complete, the Application class is used to initialize and run a Phalcon application. It takes in the dependency injection container ($di) as input.  For this framework/app example case, I will build the Application class from scratch to mimic the structure of a real-world application.
+
+The Application class is used to initialize and run a Phalcon application. It takes in the dependency injection container ($di) as input.
+
+The purpose of this code is to create a new Application instance and call its handle() and send() methods to process the request and send the response back to the client.
+
+The handle() method takes the $_SERVER['REQUEST_URI'] as input, which contains the request URL. It will route this request to the appropriate controller/action and generate the response.
+
+The send() method outputs the response content to the client. It does not return anything.
+
+To summarize the logic:
+
+* Create the Application instance with the DI container
+* Call handle() and pass in the request URI
+* This will route the request and execute the controller/action
+* The response is generated
+* Call send() to output the response to the client
+
+So in simple terms, this code initializes the Phalcon application, handles the incoming request, executes the required controllers/actions, generates the response and returns it back to the caller. The Application class brings together all the components needed to accept the request, route it, execute it, create the response and send it back.
