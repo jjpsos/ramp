@@ -33,7 +33,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Invo\\": "src/"
+            "Invo\\": "src/",
+            "App\\": "src/app/",
+            "JimSos\\Framework\\": "framework/"
         }
     },
     "archive": {
