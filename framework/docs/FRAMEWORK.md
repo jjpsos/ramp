@@ -39,6 +39,8 @@ Namespaces are used to keep the code organized and to avoid naming conflicts.
 *  "App\\": "src/app/",
 *  "JimSos\\Framework\\": "framework/"
 
+** Warning \\\\ double backslash in the namespace are not showing in above expression. **
+
 For example, you may have a set of classes which describe an HTML table, such as Table, Row and Cell while also having another set of classes to describe furniture, such as Table, Chair and Bed. Namespaces can be used to organize the classes into two different groups while also preventing the two classes Table and Table from being mixed up.
 
 # (3) Application Structure
