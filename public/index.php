@@ -1,57 +1,16 @@
-<?php
+<?php 
 
-declare(strict_types=1);
+// public/index.php
+/**
+*  PHP Framework for Web Applications
+*  Step by step by numbered steps (#)   
+*/
 
-use Dotenv\Dotenv;
-use Phalcon\Di\FactoryDefault;
-use Phalcon\Mvc\Application;
+declare(strict_types=1); 
 
-try {
-    $rootPath = realpath('..');
-    require_once $rootPath . '/vendor/autoload.php';
+// request received (1)
 
-    
-    // Debugging jjpsos
-    (new Phalcon\Support\Debug())->listen();
-    echo "Hello World";
+// perform some logic
 
-    /**
-     * Load ENV variables
-     */
-    Dotenv::createImmutable($rootPath)
-          ->load()
-    ;
-
-    /**
-     * Init Phalcon Dependency Injection
-     */
-    $di = new FactoryDefault();
-    $di->offsetSet('rootPath', function () use ($rootPath) {
-        return $rootPath;
-    });
-
-    /**
-     * Register Service Providers
-     */
-    $providers = $rootPath . '/config/providers.php';
-    if (!file_exists($providers) || !is_readable($providers)) {
-        throw new Exception('File providers.php does not exist or is not readable.');
-    }
-
-    /** @var array $providers */
-    $providers = include_once $providers;
-    foreach ($providers as $provider) {
-        $di->register(new $provider());
-    }
-
-    /**
-     * Init MVC Application and send output to client
-     */
-    (new Application($di))
-        ->handle($_SERVER['REQUEST_URI'])
-        ->send()
-    ;
-} catch (Exception $e) {
-    echo $e->getMessage() . '<br>';
-    echo '<pre>' . $e->getTraceAsString() . '</pre>';
-}
+// send response (string of content) (2)
+echo 'RAMP Framework';

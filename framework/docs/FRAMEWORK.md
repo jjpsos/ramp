@@ -32,3 +32,7 @@ Before we start to create Http classes to represent request and response, let's 
 The folder structure will be important here because we are creating framework files and classes but also application files and classes (i.e. the kind of files that a framework user would create). I intend to keep these separate by having a src folder and a framework folder.
 
 * Note - I also added the /vendor folder to the .gitignore file. 
+
+Namespaces are used to keep the code organized and to avoid naming conflicts.
+
+For example, you may have a set of classes which describe an HTML table, such as Table, Row and Cell while also having another set of classes to describe furniture, such as Table, Chair and Bed. Namespaces can be used to organize the classes into two different groups while also preventing the two classes Table and Table from being mixed up.
