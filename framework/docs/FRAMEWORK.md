@@ -1,6 +1,8 @@
 # (0) Welcome To PHP Framework PRO
 
-This is the documentation for a high-level overview of how modern PHP frameworks handle web requests.
+This is the documentation for a high-level overview of how modern PHP frameworks handle web requests.  
+
+These are my notes and observations as I learn the ins and outs of modern PHP frameworks.
 
 If you want to access all of the code at once, you can clone the public repo here:
 
@@ -41,6 +43,8 @@ Namespaces are used to keep the code organized and to avoid naming conflicts.
 
 ** Warning \\\\ double backslash in the namespace are not showing in above expression. **
 
+Mapping namespaces to file folders.
+
 For example, you may have a set of classes which describe an HTML table, such as Table, Row and Cell while also having another set of classes to describe furniture, such as Table, Chair and Bed. Namespaces can be used to organize the classes into two different groups while also preventing the two classes Table and Table from being mixed up.
 
 # (3) Application Structure
@@ -64,3 +68,27 @@ To summarize the logic:
 * Call send() to output the response to the client
 
 So in simple terms, this code initializes the Phalcon application, handles the incoming request, executes the required controllers/actions, generates the response and returns it back to the caller. The Application class brings together all the components needed to accept the request, route it, execute it, create the response and send it back.
+
+# (4) STRICT TYPES
+
+What is declare(strict_types=1)?
+declare(strict_types=1) is a directive in PHP that enforces strict type checking for function and method arguments and return values within a specific PHP file or code block. When you enable strict type checking, PHP ensures that the data types of function arguments and return values match exactly with the declared types. Exactly the same way as Java does.
+
+Place this declaration at the very beginning of your PHP file or code block (before any other code) to enable strict typing.
+
+# (5) SUMMARY
+
+Section 1-4 are the basic setup for a PHP framework, not the framework itself.
+
+# (6) REQUEST CLASS
+
+All PHP frameworks use objects to represent the incoming request. One of the greatest advantages of this is encapsulation: we can store all of the superglobal values as properties on our request object and those values will be preserved and protected from being tampered with unlike the superglobals which can have their values altered.
+
+We will be able to use some of the properties on our request object in order to perform important operations such as routing the request to the correct handler (controller) etc.
+
+The Request class which I create here is a superlight model based on the Symfony Http Foundation request class
+
+**$request = \JimSos\Framework\Http\Request::createFromGlobals();**
+
+This is an interface can be swapped out for a more complex implementation without affecting the rest of the framework code.
+
