@@ -55,7 +55,7 @@ The purpose of this code is to create a new Application instance and call its ha
 
 The handle() method takes the $_SERVER['REQUEST_URI'] as input, which contains the request URL. It will route this request to the appropriate controller/action and generate the response.
 
-The send() method outputs the response content to the client. It does not return anything.
+The send() method outputs the response content to the client. 
 
 To summarize the logic:
 
