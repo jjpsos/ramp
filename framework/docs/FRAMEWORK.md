@@ -49,9 +49,7 @@ For example, you may have a set of classes which describe an HTML table, such as
 
 # (3) Application Structure
 
-Now that the basic setup is complete, the Application class is used to initialize and run a Phalcon application. It takes in the dependency injection container ($di) as input.  For this framework/app example case, I will build the Application class from scratch to mimic the structure of a real-world application.
-
-The Application class is used to initialize and run a Phalcon application. It takes in the dependency injection container ($di) as input.
+Now that the basic setup is complete, the Application class is used to initialize and run a Phalcon application. It takes in the dependency injection container ($di) as input. 
 
 The purpose of this code is to create a new Application instance and call its handle() and send() methods to process the request and send the response back to the client.
 
@@ -69,10 +67,12 @@ To summarize the logic:
 
 So in simple terms, this code initializes the Phalcon application, handles the incoming request, executes the required controllers/actions, generates the response and returns it back to the caller. The Application class brings together all the components needed to accept the request, route it, execute it, create the response and send it back.
 
+For this framework/app example case, I will build the Application class from scratch to mimic the structure of a real-world application.
+
 # (4) STRICT TYPES
 
 What is declare(strict_types=1)?
-declare(strict_types=1) is a directive in PHP that enforces strict type checking for function and method arguments and return values within a specific PHP file or code block. When you enable strict type checking, PHP ensures that the data types of function arguments and return values match exactly with the declared types. Exactly the same way as Java does.
+The declare(strict_types=1) is a directive in PHP that enforces strict type checking for function and method arguments and return values within a specific PHP file or code block. When you enable strict type checking, PHP ensures that the data types of function arguments and return values match exactly with the declared types. Exactly the same way as Java does.
 
 Place this declaration at the very beginning of your PHP file or code block (before any other code) to enable strict typing.
 
@@ -92,7 +92,7 @@ The Request class which I create here is a superlight model based on the Symfony
 
 **$request = \JimSos\Framework\Http\Request::createFromGlobals();**
 
-This is an interface can be swapped out for a more complex implementation without affecting the rest of the framework code.
+This is an interface that can be swapped out for a more complex implementation without affecting the rest of the framework code.
 
 ## (6.2) Response Class
 
