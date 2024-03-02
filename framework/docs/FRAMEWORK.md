@@ -80,7 +80,9 @@ Place this declaration at the very beginning of your PHP file or code block (bef
 
 Section 1-4 are the basic setup for a PHP framework, not the framework itself.
 
-# (6) REQUEST CLASS
+# (6) THE REQUEST -> RESPONSE CYCLE
+
+## (6.1) Request Class
 
 All PHP frameworks use objects to represent the incoming request. One of the greatest advantages of this is encapsulation: we can store all of the superglobal values as properties on our request object and those values will be preserved and protected from being tampered with unlike the superglobals which can have their values altered.
 
@@ -91,4 +93,26 @@ The Request class which I create here is a superlight model based on the Symfony
 **$request = \JimSos\Framework\Http\Request::createFromGlobals();**
 
 This is an interface can be swapped out for a more complex implementation without affecting the rest of the framework code.
+
+## (6.2) Response Class
+
+In the same way that we did with the request, let's also encapsulate the response data by creating a response class. There are 3 main pieces of data associated with a response and they are:
+
+* Content
+* Status (code)
+* Headers
+
+**$response = new Response(content: $content, status: 200, headers: []);**
+
+The content will always be a string (or null) so we can send it by echoing it from a $response->send() method.
+
+## (6.3) Http Kernal (Controller Class)
+
+We've looked at the Request class and the Response class so now let's consider a class which is responsible for taking that Request and returning a Response.
+
+For this we are going to create a HTTP Kernel class which is the heart of your application. This class will be composed of the main components that we are going to need to complete the request -> response cycle.
+
+**$response = $kernel->handle($request);**
+
+**$response->send();**
 
