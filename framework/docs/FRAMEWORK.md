@@ -146,5 +146,14 @@ In-depth explanation
 
 By understanding the dispatcher as a sort of 'traffic controller' for HTTP requests, you may find it easier to grasp its role in the routing process. It's not about sending out requests or data but about directing incoming requests to the right destination in the application.
 
+## (7.2) Routing Key Concepts: File Structure for my example application
+
+At first all the routes are defined in the kernel.php file.  Since we don't want to hard code the routes in the kernel file we are going to create a routes directory within of our application (app) folder.  There can be many types of routes, for now we are going to use a simple route file called web.php which will be used to define the routes for our web application.
+
+**ramp/src/app/routes/web.php**
+
+Setting up the correct namespaces is a bit trickier.
+
+
 
 
