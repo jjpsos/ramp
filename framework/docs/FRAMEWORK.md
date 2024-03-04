@@ -106,7 +106,7 @@ In the same way that we did with the request, let's also encapsulate the respons
 
 The content will always be a string (or null) so we can send it by echoing it from a $response->send() method.
 
-## (6.3) Http Kernal (Controller Class)
+## (6.3) Http Kernel
 
 We've looked at the Request class and the Response class so now let's consider a class which is responsible for taking that Request and returning a Response.
 
@@ -115,4 +115,36 @@ For this we are going to create a HTTP Kernel class which is the heart of your a
 **$response = $kernel->handle($request);**
 
 **$response->send();**
+
+# (7) Routing and Controllers
+
+## (7.1) Routing Key Concepts: Dispatchers
+
+The dispatcher is the component which is responsible for taking the incoming request and routing it to the correct controller/action.
+
+(For our routing we are going to use a 3rd party package called FastRoute which uses regular expressions to match URI's to routes and their handlers.
+
+You can find FastRoute here: https://github.com/nikic/FastRoute and we will install it using composer.)
+
+Definition: what's exactly a dispatcher ?
+
+The name can be a bit misleading and make it sound more complex than it is but it's an object or a method which determines which piece of code is going to handle the request. 
+
+In-depth explanation 
+
+1. Understanding Routing: In web development, routing refers to the process of directing an HTTP request to the correct piece of code, usually a function or a method in a class. Routes are typically defined in terms of URLs and HTTP methods (like GET, POST, etc.). For example, a route could be defined to handle all GET requests for "/home".
+
+2. Role of a Route Dispatcher: The route dispatcher is responsible for taking an incoming HTTP request, analyzing its URL and method, and then determining which piece of code should handle the request based on the routes that have been defined.
+
+3. Process of Dispatching:
+   * Request Analysis: When a request arrives, the dispatcher examines the request's URL and HTTP method.
+   * Matching Route: It then matches these against the set of defined routes. Each route specifies a URL pattern and often an HTTP method.
+   * Executing the Handler: Once a match is found, the dispatcher executes the associated handler (function or class method), which generates the response to the request.
+   * Handling No Match: If no matching route is found, the dispatcher can trigger a default action, like displaying a 404 error page.
+
+4. Why 'Dispatcher'?: The term "dispatcher" might seem confusing, but it's analogous to a dispatcher in other fields (like emergency services) who directs calls to the right place. Here, the "calls" are HTTP requests, and the "right place" is the code that should handle them.
+
+By understanding the dispatcher as a sort of 'traffic controller' for HTTP requests, you may find it easier to grasp its role in the routing process. It's not about sending out requests or data but about directing incoming requests to the right destination in the application.
+
+
 
