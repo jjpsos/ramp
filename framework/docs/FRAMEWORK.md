@@ -160,8 +160,8 @@ Setting up the correct namespaces is a bit trickier.
 | directory  | namespace |
 | --- | ---  |
 | /framework | JimSos\\\\Framework\\\\ |
-| /src/app   | App\\\\ |
-| /src       | Invo\\\\|
+| /src/app   | App\\\\   |
+| /src       | Invo\\\\  |
 
 
 
