@@ -154,6 +154,14 @@ At first all the routes are defined in the kernel.php file.  Since we don't want
 
 Setting up the correct namespaces is a bit trickier.
 
+(Setting up the correct namespaces and directory structure for both my PHP Phalcon Contractor application, *Invo*, and my PHP Framework and example application, *App*, is dependant on my personal directory structure of this custom github project.  It does not follow any kind of particular framework directory structure, but my own custom directory structure.)
+
+
+| directory  | namespace |
+| --- | ---  |
+| /framework | JimSos\\\\Framework\\\\ |
+| /src/app   | App\\\\ |
+| /src       | Invo\\\\|
 
 
 
