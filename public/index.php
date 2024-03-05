@@ -2,6 +2,7 @@
 
 use JimSos\Framework\Http\Request;
 use JimSos\Framework\Http\Response;
+use JimSos\Framework\Http\Kernel;
 
 // public/index.php
 /**
@@ -20,10 +21,15 @@ $request = Request::createFromGlobals();
 //dd($request);
 
 // perform some logic
-
 // send response (string of content) (2)
-$content = '<h1>RAMP Framework</h1>';
+// $content = '<h1>RAMP Framework</h1>';
+// $response = new Response(content: $content, status: 200, headers: []);
+// $response->send();
 
-$response = new Response(content: $content, status: 200, headers: []);
+// perform some logic (3)
+$kernel = new Kernel();
+
+// send response (string of content)
+$response = $kernel->handle($request);
 
 $response->send();
