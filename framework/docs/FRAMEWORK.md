@@ -107,7 +107,11 @@ In the same way that we did with the request, let's also encapsulate the respons
 
 **$response = new Response(content: $content, status: 200, headers: []);**
 
-The content will always be a string (or null) so we can send it by echoing it from a $response->send() method.
+We have a useful object that encapsulates the response data, *content, status, headers* -and we can use it to send the response back to the client.
+
+**$response->send();**
+
+This content will always be a string (or null) so we can send it by echoing it from a $response->send() method.
 
 ## (6.3) Http Kernel
 
