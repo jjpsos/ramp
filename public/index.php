@@ -1,4 +1,6 @@
-<?php 
+<?php declare(strict_types=1); 
+
+use JimSos\Framework\Http\Request;
 
 // public/index.php
 /**
@@ -6,9 +8,15 @@
 *  Step by step by numbered steps (#)   
 */
 
-declare(strict_types=1); 
+// Debugging 
+(new Phalcon\Support\Debug())->listen();
+
+$rootPath = realpath('..');
+require_once $rootPath . '/vendor/autoload.php';
 
 // request received (1)
+$request = Request::createFromGlobals();
+dd($request);
 
 // perform some logic
 
