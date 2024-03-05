@@ -28,8 +28,13 @@ $request = Request::createFromGlobals();
 
 // perform some logic (3)
 $kernel = new Kernel();
-
 // send response (string of content)
 $response = $kernel->handle($request);
-
+/* dd($response);
+JimSos\Framework\Http\Response {#7 ▼
+    -content: "<h1>RAMP KERNEL</h1>"
+    -status: 200
+    -headers: []
+  }
+*/
 $response->send();
