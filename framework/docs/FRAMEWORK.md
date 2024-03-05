@@ -47,6 +47,9 @@ Mapping namespaces to file folders.
 
 For example, you may have a set of classes which describe an HTML table, such as Table, Row and Cell while also having another set of classes to describe furniture, such as Table, Chair and Bed. Namespaces can be used to organize the classes into two different groups while also preventing the two classes Table and Table from being mixed up.
 
+**Fix Error: Class "JimSos\Framework\Http\Request" not found**
+Autoload the Request class. If you are using Composer, run *composer dump-autoload* to rebuild the autoloader.
+
 # (3) Application Structure
 
 Now that the basic setup is complete, the Application class is used to initialize and run a Phalcon application. It takes in the dependency injection container ($di) as input. 
