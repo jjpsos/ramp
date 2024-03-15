@@ -312,3 +312,6 @@ If you follow this rule, you are on your way to code without hidden dependencies
 
 Do not confuse dependency injection, which is a design pattern, with a “dependency injection container”, which is a tool, something diametrically different. 
 
+## (8.2) From Functions to Classes
+
+How are classes related to dependency Injection? Classes are more complex than function, still rule #1 applies here as well. There are just more ways to pass arguments when using classes.
