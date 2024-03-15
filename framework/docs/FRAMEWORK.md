@@ -216,3 +216,99 @@ Setting up the correct namespaces is a bit trickier.
 
 
 
+# (8) Dependency Injection Container
+
+## (8.1) The first step in understanding dependency injection is to understand the terminology.
+
+What is Dependency Injection?
+These are basic programming practices that you should follow when writing any application. These are the fundamentals needed for writing clean, understandable, and maintainable code.
+
+Learn and follow these rules.
+
+The principles shown here are simple. 
+
+Take an example Program:
+
+```php
+function add(float $a, float $b): float
+{
+	return $a + $b;
+}
+
+echo add(1, 1); // prints 2
+```
+
+A few lines of code with many key concepts hidden in them. There are variables. That code is broken down into smaller units, which are functions. I pass them input arguments and they return results.  All that's missing are conditions and loops for an example of a more complex program.
+
+A function takes input data and returns a result is an understandable concept, also used in mathematics.
+
+A function has its signature, which consists of its name, a list of parameters and their types, and finally the type of the return value. As users, we are interested in the signature, and we usually don't need to know anything about the internal implementation.
+
+Now imagine that the function signature looked like this:
+
+```php
+function add(float $x): float
+```
+
+An addition with one parameter? 
+
+```php
+function add(): float
+```
+
+Now none? How is the function used?
+
+```php
+echo add(); // what does it prints?
+```
+
+Looking at such code, we would be confused. 
+
+Are you wondering what such a function would actually look like inside? Where would it get the summands? It would probably somehow get them by itself, perhaps like this:
+
+```php
+function add(): float
+{
+	$a = Input::get('a');
+	$b = Input::get('b');
+	return $a + $b;
+}
+```
+
+It turns out there's hidden bindings to other functions (or static methods) in the body of the function, and to find out where the addends actually come from, we have to dig further.
+
+**Do Not Do It This Way**
+The design I just showed is the essence of many negative features:
+
+* the function signature pretended that it didn't need the summands 
+* we have no idea how to make the function calculate with two other numbers
+* we had to look at the code to find out where the summands came from
+* we found hidden dependencies
+* a full understanding requires examining these dependencies 
+* is it the job of the addition function to procure inputs? No, its responsibility is only to add
+
+We don't want to encounter code like this, and we don't want to write it.  
+
+**The remedy is simple: go back to basics and just use parameters:**
+
+```php
+function add(float $a, float $b): float
+{
+	return $a + $b;
+}
+```
+
+Rule #1: Let It Be Passed to You
+The most important rule is: all data that functions or classes need must be passed to them.
+
+Instead of inventing hidden ways for them to access the data themselves, simply pass the parameters. 
+
+If you follow this rule, you are on your way to code without hidden dependencies, where everything is understandable from the signatures of functions and classes, and there is no need to search for hidden secrets in the implementation.
+
+**This technique is professionally called dependency injection.**
+**Those data are called dependencies.**
+
+**It's just ordinary parameter passing, nothing more.**
+
+Do not confuse dependency injection, which is a design pattern, with a “dependency injection container”, which is a tool, something diametrically different. 
+
