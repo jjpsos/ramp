@@ -315,3 +315,5 @@ Do not confuse dependency injection, which is a design pattern, with a “depend
 ## (8.2) From Functions to Classes
 
 How are classes related to dependency Injection? Classes are more complex than function, still rule #1 applies here as well. There are just more ways to pass arguments when using classes.
+
+# (9) Zephir
