@@ -317,3 +317,8 @@ Do not confuse dependency injection, which is a design pattern, with a “depend
 How are classes related to dependency Injection? Classes are more complex than function, still rule #1 applies here as well. There are just more ways to pass arguments when using classes.
 
 # (9) Zephir
+
+Zephir is a compiled language that compiles to C. It is a language that is very similar to PHP, but with a few differences.
+
+Add Line
+
