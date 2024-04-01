@@ -107,7 +107,11 @@ In the same way that we did with the request, let's also encapsulate the respons
 
 **$response = new Response(content: $content, status: 200, headers: []);**
 
-The content will always be a string (or null) so we can send it by echoing it from a $response->send() method.
+We have a useful object that encapsulates the response data, *content, status, headers* -and we can use it to send the response back to the client.
+
+**$response->send();**
+
+This content will always be a string (or null) so we can send it by echoing it from a $response->send() method.
 
 ## (6.3) Http Kernel
 
@@ -118,6 +122,50 @@ For this we are going to create a HTTP Kernel class which is the heart of your a
 **$response = $kernel->handle($request);**
 
 **$response->send();**
+
+### (6.3.1) Steps 1 to 3 Coding Example**
+
+```php
+php declare(strict_types=1); 
+
+use JimSos\Framework\Http\Request;
+use JimSos\Framework\Http\Response;
+use JimSos\Framework\Http\Kernel;
+
+public/index.php
+PHP Framework for Web Applications
+Step by step by numbered steps    
+
+
+Debugging 
+(new Phalcon\Support\Debug())->listen();
+
+$rootPath = realpath('..');
+require_once $rootPath . '/vendor/autoload.php';
+
+request received (1)
+$request = Request::createFromGlobals();
+dd($request);
+
+perform some logic
+send response (string of content) (2)
+$content = '<h1>RAMP Framework</h1>';
+$response = new Response(content: $content, status: 200, headers: []);
+$response->send();
+
+perform some logic (3)
+$kernel = new Kernel();
+send response (string of content)
+$response = $kernel->handle($request);
+dd($response);
+JimSos\Framework\Http\Response {#7 ▼
+    -content: "RAMP KERNEL"
+    -status: 200
+    -headers: []
+  }
+
+$response->send();
+```
 
 # (7) Routing and Controllers
 
@@ -168,3 +216,104 @@ Setting up the correct namespaces is a bit trickier.
 
 
 
+# (8) Dependency Injection Container
+
+## (8.1) The first step in understanding dependency injection is to understand the terminology.
+
+What is Dependency Injection?
+These are basic programming practices that you should follow when writing any application. These are the fundamentals needed for writing clean, understandable, and maintainable code.
+
+Learn and follow these rules.
+
+The principles shown here are simple. 
+
+Take an example Program:
+
+```php
+function add(float $a, float $b): float
+{
+	return $a + $b;
+}
+
+echo add(1, 1); // prints 2
+```
+
+A few lines of code with many key concepts hidden in them. There are variables. That code is broken down into smaller units, which are functions. I pass them input arguments and they return results.  All that's missing are conditions and loops for an example of a more complex program.
+
+A function takes input data and returns a result is an understandable concept, also used in mathematics.
+
+A function has its signature, which consists of its name, a list of parameters and their types, and finally the type of the return value. As users, we are interested in the signature, and we usually don't need to know anything about the internal implementation.
+
+Now imagine that the function signature looked like this:
+
+```php
+function add(float $x): float
+```
+
+An addition with one parameter? 
+
+```php
+function add(): float
+```
+
+Now none? How is the function used?
+
+```php
+echo add(); // what does it prints?
+```
+
+Looking at such code, we would be confused. 
+
+Are you wondering what such a function would actually look like inside? Where would it get the summands? It would probably somehow get them by itself, perhaps like this:
+
+```php
+function add(): float
+{
+	$a = Input::get('a');
+	$b = Input::get('b');
+	return $a + $b;
+}
+```
+
+It turns out there's hidden bindings to other functions (or static methods) in the body of the function, and to find out where the addends actually come from, we have to dig further.
+
+**Do Not Do It This Way**
+The design I just showed is the essence of many negative features:
+
+* the function signature pretended that it didn't need the summands 
+* we have no idea how to make the function calculate with two other numbers
+* we had to look at the code to find out where the summands came from
+* we found hidden dependencies
+* a full understanding requires examining these dependencies 
+* is it the job of the addition function to procure inputs? No, its responsibility is only to add
+
+We don't want to encounter code like this, and we don't want to write it.  
+
+**The remedy is simple: go back to basics and just use parameters:**
+
+```php
+function add(float $a, float $b): float
+{
+	return $a + $b;
+}
+```
+
+Rule #1: Let It Be Passed to You
+The most important rule is: all data that functions or classes need must be passed to them.
+
+Instead of inventing hidden ways for them to access the data themselves, simply pass the parameters. 
+
+If you follow this rule, you are on your way to code without hidden dependencies, where everything is understandable from the signatures of functions and classes, and there is no need to search for hidden secrets in the implementation.
+
+**This technique is professionally called dependency injection.**
+**Those data are called dependencies.**
+
+**It's just ordinary parameter passing, nothing more.**
+
+Do not confuse dependency injection, which is a design pattern, with a “dependency injection container”, which is a tool, something diametrically different. 
+
+## (8.2) From Functions to Classes
+
+How are classes related to dependency Injection? Classes are more complex than function, still rule #1 applies here as well. There are just more ways to pass arguments when using classes.
+
+# (9) Zephir
