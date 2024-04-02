@@ -320,5 +320,4 @@ How are classes related to dependency Injection? Classes are more complex than f
 
 Zephir is a compiled language that compiles to C. It is a language that is very similar to PHP, but with a few differences.
 
-Add Line
 
