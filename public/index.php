@@ -10,7 +10,7 @@ use JimSos\Framework\Http\Kernel;
 */
 
 // Debugging 
-(new Phalcon\Support\Debug())->listen();
+//(new Phalcon\Support\Debug())->listen();
 
 $rootPath = realpath('..');
 require_once $rootPath . '/vendor/autoload.php';
