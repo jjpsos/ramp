@@ -6,7 +6,6 @@ Automate recurring service contracts, invoices, and receipts for small to mid-si
 ### Installation
 
 Use RAMP for a LAMP stack on FreeBSD with an installed version of this Phalcon Contractor application.
-(view demo at: zebrabutterfly.webhop.me)
 
 or start from its base INVO application:
 
