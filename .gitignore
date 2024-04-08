@@ -12,6 +12,7 @@ Thumbs.db
 *.sublime-workspace
 .idea/
 vendor/
+demo/
 wp/
 composer.phar
 /.env
