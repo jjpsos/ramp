@@ -28,7 +28,7 @@ $header_nav_menu = wp_nav_menu( [
 			?>
 			<h1 class="site-title" style="background-color: black">
 				<a style="color:white; background-color:black" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr__( 'Home', 'hello-elementor' ); ?>" rel="home">
-					<!--jjpsos ?php echo esc_html( $site_name ); ? -->
+					<!--jjpsos ?php echo esc_html( $site_name ); ?-->
 				</a>
 			</h1>
 			<p class="site-description">
