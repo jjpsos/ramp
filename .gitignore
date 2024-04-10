@@ -12,8 +12,13 @@ Thumbs.db
 *.sublime-workspace
 .idea/
 vendor/
-demo/
-composer.phar
+demo/config/
+demo/db/
+demo/tests/
+demo/var/
+demo/vendor/
+demo/.env*
+demo/.ht*
 /.env
 wp/.tmb/
 wp/tjc-content/
