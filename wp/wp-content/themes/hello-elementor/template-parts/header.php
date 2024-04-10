@@ -17,7 +17,8 @@ $header_nav_menu = wp_nav_menu( [
 ] );
 ?>
 
-<header id="site-header" class="site-header" role="banner">
+<header id="site-header" class="site-header" role="banner" 
+	style="background-color:black; max-width:100%; height: 56px">
 
 	<div class="site-branding">
 		<?php
@@ -25,9 +26,9 @@ $header_nav_menu = wp_nav_menu( [
 			the_custom_logo();
 		} elseif ( $site_name ) {
 			?>
-			<h1 class="site-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr__( 'Home', 'hello-elementor' ); ?>" rel="home">
-					<?php echo esc_html( $site_name ); ?>
+			<h1 class="site-title" style="background-color: black">
+				<a style="color:white; background-color:black" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr__( 'Home', 'hello-elementor' ); ?>" rel="home">
+					<!--jjpsos ?php echo esc_html( $site_name ); ? -->
 				</a>
 			</h1>
 			<p class="site-description">
