@@ -30,5 +30,5 @@ wp/hello*
 wp/index*
 wp/license*
 wp/readme*
-wp/wp-*
+wp/wp-config*
 wp/xml* 
