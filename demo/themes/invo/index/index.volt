@@ -1,6 +1,7 @@
 <div class="jumbotron">
     <h1>Softestate Contractor</h1>
     <p>Custom software consulting & development company.  30+ years. Contact: support[at]softestate.net</p>
+    <p>Read about my software musings at <a href="http://web.softestate.net">Softestate</a>.</p>
     <!-- p>{{ link_to('register', 'Try it for Free &raquo;', 'class': 'btn btn-primary btn-large btn-success') }}</p -->
 </div>
 
