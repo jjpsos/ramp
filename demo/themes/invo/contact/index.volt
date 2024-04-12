@@ -2,7 +2,7 @@
     <h2>Contact Us (Disabled)</h2>
 </div>
 
-<p>Send us a message and let us know how we can help.</p>
+<p>support[at]softestate.net</p>
 
 <form action="/contact/send" role="form" method="post">
     <fieldset>
