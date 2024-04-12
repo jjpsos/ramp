@@ -37,3 +37,4 @@ wp/license*
 wp/readme*
 wp/wp-config*
 wp/xml* 
+wpc/ 
