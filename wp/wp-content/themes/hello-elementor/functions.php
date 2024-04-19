@@ -34,11 +34,14 @@ if ( ! function_exists( 'hello_elementor_setup' ) ) {
 		if ( apply_filters( 'hello_elementor_post_type_support', true ) ) {
 			add_post_type_support( 'page', 'excerpt' );
 		}
-
+        //-jjpsos
+		
 		if ( apply_filters( 'hello_elementor_add_theme_support', true ) ) {
 			add_theme_support( 'post-thumbnails' );
 			add_theme_support( 'automatic-feed-links' );
 			add_theme_support( 'title-tag' );
+			//-jjpsos
+			
 			add_theme_support(
 				'html5',
 				[
@@ -51,6 +54,8 @@ if ( ! function_exists( 'hello_elementor_setup' ) ) {
 					'style',
 				]
 			);
+			
+
 			add_theme_support(
 				'custom-logo',
 				[
@@ -85,9 +90,10 @@ if ( ! function_exists( 'hello_elementor_setup' ) ) {
 				// swipe.
 				add_theme_support( 'wc-product-gallery-slider' );
 			}
-		}
+		} 
 	}
 }
+
 add_action( 'after_setup_theme', 'hello_elementor_setup' );
 
 function hello_maybe_update_theme_version_in_db() {
