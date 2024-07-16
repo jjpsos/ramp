@@ -39,5 +39,5 @@ wp/wp-config*
 wp/xml* 
 wpc/ 
 bella/
-store/app/config/
+/store/app/config/config.php
 
