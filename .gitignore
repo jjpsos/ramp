@@ -25,5 +25,6 @@ var/
 wp/ 
 wpc/ 
 bella/
-store/app/config/config.php
+dev/app/config/config.php
+dev-org/app/config/config.php
 
