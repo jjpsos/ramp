@@ -1,0 +1,93 @@
+<?php
+/**
+ * @var \Phalcon\Mvc\View\Engine\Php $this
+ */
+?>
+
+<div class="page-header">
+    <h1>Search wp_users</h1>
+    <p><?php echo $this->tag->a($this->url->get("wp_users/new"), "Create wp_users") ?></p>
+</div>
+
+<?php echo $this->getContent() ?>
+
+<?php echo $this->flash->output() ?>
+
+<form action="<?= $this->url->get('wp_users/search') ?>" class="form-horizontal" method="get">
+    <div class="form-group">
+    <label for="fieldId" class="col-sm-2 control-label">ID</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("ID", $wp_user->ID, ["size" => 30, "class" => "form-control", "id" => "fieldId"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldUserLogin" class="col-sm-2 control-label">User Of Login</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("user_login", $wp_user->user_login, ["size" => 30, "class" => "form-control", "id" => "fieldUserLogin"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldUserPass" class="col-sm-2 control-label">User Of Pass</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("user_pass", $wp_user->user_pass, ["size" => 30, "class" => "form-control", "id" => "fieldUserPass"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldUserNicename" class="col-sm-2 control-label">User Of Nicename</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("user_nicename", $wp_user->user_nicename, ["size" => 30, "class" => "form-control", "id" => "fieldUserNicename"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldUserEmail" class="col-sm-2 control-label">User Of Email</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("user_email", $wp_user->user_email, ["size" => 30, "class" => "form-control", "id" => "fieldUserEmail"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldUserUrl" class="col-sm-2 control-label">User Of Url</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("user_url", $wp_user->user_url, ["size" => 30, "class" => "form-control", "id" => "fieldUserUrl"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldUserRegistered" class="col-sm-2 control-label">User Of Registered</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("user_registered", $wp_user->user_registered, ["size" => 30, "class" => "form-control", "id" => "fieldUserRegistered"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldUserActivationKey" class="col-sm-2 control-label">User Of Activation Of Key</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("user_activation_key", $wp_user->user_activation_key, ["size" => 30, "class" => "form-control", "id" => "fieldUserActivationKey"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldUserStatus" class="col-sm-2 control-label">User Of Status</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputNumeric("user_status", $wp_user->user_status, ["class" => "form-control", "id" => "fieldUserStatus"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldDisplayName" class="col-sm-2 control-label">Display Of Name</label>
+    <div class="col-sm-10">
+        <?= $this->tag->inputText("display_name", $wp_user->display_name, ["size" => 30, "class" => "form-control", "id" => "fieldDisplayName"]) ?>
+    </div>
+</div>
+
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <?php echo $this->tag->inputSubmit("search", "Search", ["class" => "btn btn-primary"]) ?>
+        </div>
+    </div>
+</form>
