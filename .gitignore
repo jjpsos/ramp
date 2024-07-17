@@ -11,12 +11,10 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 .idea/
-config
 db/
 demo/
 docs/
 framework/
-public/
 src/
 tests/
 themes/
@@ -27,4 +25,3 @@ wp/
 wpc/ 
 bella/
 dev/app/config/config.php
-
