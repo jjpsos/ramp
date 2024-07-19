@@ -39,7 +39,7 @@ try {
      * Handle the request
      */
     $application = new \Phalcon\Mvc\Application($di);
-
+   
     echo $application->handle($_SERVER['REQUEST_URI'])->getContent();
 } catch (\Exception $e) {
     echo $e->getMessage() . '<br>';
