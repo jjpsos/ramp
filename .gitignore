@@ -24,6 +24,8 @@ vendor/
 wp/
 bella/
 dev/app/config/config.php
+bhc/index.php
+bhc/wp-config*
 bhc/tjc-content
 bhc/wp-admin
 bhc/wp-includes
@@ -41,6 +43,8 @@ bhc/wp-content/plugins/st*
 bhc/wp-content/plugins/tr*
 bhc/wp-content/plugins/w*
 bhc/.tmb
+
+
 
 
 
