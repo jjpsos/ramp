@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Sliced Invoices Additional Tax\n"
+"POT-Creation-Date: 2017-06-16 23:35+0300\n"
+"PO-Revision-Date: 2017-06-16 23:41+0300\n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-additional-tax.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-additional-tax.php:108
+#: sliced-invoices-additional-tax.php:149
+msgid "Tax Name"
+msgstr "Название налога"
+
+#: sliced-invoices-additional-tax.php:115
+#: sliced-invoices-additional-tax.php:156
+#: sliced-invoices-additional-tax.php:207
+msgid "Additional Tax Rate (%)"
+msgstr "Значение налога (%)"
+
+#: sliced-invoices-additional-tax.php:128
+#: sliced-invoices-additional-tax.php:169
+#: sliced-invoices-additional-tax.php:218
+msgid "Additional Tax Name"
+msgstr "Название дополнительного налога"
+
+#: sliced-invoices-additional-tax.php:135
+#: sliced-invoices-additional-tax.php:176
+#: sliced-invoices-additional-tax.php:224
+msgid "Additional Tax Type"
+msgstr "Тип дополнительного налога"
+
+#: sliced-invoices-additional-tax.php:141
+#: sliced-invoices-additional-tax.php:182
+#, fuzzy
+msgid "Normal"
+msgstr "Обычный"
+
+#: sliced-invoices-additional-tax.php:142
+#: sliced-invoices-additional-tax.php:183
+#, fuzzy
+msgid "Compound"
+msgstr "Сложный"
+
+#: sliced-invoices-additional-tax.php:201
+msgid "Additional Tax Options"
+msgstr "Настройки дополнительного налога"
+
+#: sliced-invoices-additional-tax.php:202
+msgid ""
+"Enter global default values here.  You can override these settings on "
+"individual quotes or invoices if necessary."
+msgstr ""
+"Глобальные значения. Вы можете переопределить их в индивидуальном порядке, "
+"если потребуется."
+
+#: sliced-invoices-additional-tax.php:208
+msgid ""
+"Negative values are allowed.  Set to 0 or leave blank for no additional tax."
+msgstr ""
+"Допускаются отрицательные значения. Укажите 0, или оставьте поле пустым, "
+"если не хотите использовать дополнительный налог."
+
+#: sliced-invoices-additional-tax.php:230
+#, fuzzy
+msgid "Normal (calculates based on sub-total)"
+msgstr "Обычный (применяется к общей сумме)"
+
+#: sliced-invoices-additional-tax.php:231
+#, fuzzy
+msgid "Compound (calculates based on sub-total + 1st tax)"
+msgstr "Сложный (применяется к общей сумме с учетом первого налога)"
+
+#: sliced-invoices-additional-tax.php:286
+#, php-format
+msgid "%s Totals"
+msgstr ""
+
+#: sliced-invoices-additional-tax.php:287
+msgid "Sub Total"
+msgstr ""
+
+#: sliced-invoices-additional-tax.php:290
+msgid "Total"
+msgstr ""
+
+#: updater/class-base-updater.php:217
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/class-base-updater.php:225
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/class-base-updater.php:412
+msgid "You do not have permission to install plugin updates"
+msgstr "У вас недостаточно прав для установки обновлений."
+
+#: updater/class-base-updater.php:412
+msgid "Error"
+msgstr "Ошибка"
+
+#: updater/plugin-updater.php:69 updater/plugin-updater.php:93
+msgid "Enter the License Key for this extension"
+msgstr "Введите лицензионный ключ"
+
+#: updater/plugin-updater.php:108
+#, php-format
+msgid "License: %s"
+msgstr "Лицензия %s"
+
+#: updater/plugin-updater.php:116
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: updater/plugin-updater.php:117
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Additional Tax"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://slicedinvoices.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds additional tax fields to quotes and invoices. Requirements: The Sliced "
+"Invoices Plugin"
+msgstr ""
+"Дополнительные налоги для смет и счетов. Необходимо: плагин Sliced Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""

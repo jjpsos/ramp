@@ -1,0 +1,546 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices PDF Email v1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-01 17:28-0700\n"
+"PO-Revision-Date: 2019-07-03 14:34+0200\n"
+"Last-Translator: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language-Team: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-pdf-email.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/pdf/class-sliced-pdf.php:62
+msgid "PDF"
+msgstr "PDF"
+
+#: includes/pdf/class-sliced-pdf.php:131
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: includes/pdf/class-sliced-pdf.php:139
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#: sliced-invoices-pdf-email.php:119
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: sliced-invoices-pdf-email.php:179
+msgid "Page Size"
+msgstr "Seitengröße"
+
+#: sliced-invoices-pdf-email.php:180
+msgid "Select paper size for generated PDFs"
+msgstr "Papierformat für erzeugte PDFs auswählen"
+
+#: sliced-invoices-pdf-email.php:185
+msgid "Letter"
+msgstr "Letter"
+
+#: sliced-invoices-pdf-email.php:186
+msgid "Legal"
+msgstr "Legal"
+
+#: sliced-invoices-pdf-email.php:187
+msgid "Ledger"
+msgstr "Ledger"
+
+#: sliced-invoices-pdf-email.php:188
+msgid "Tabloid"
+msgstr "Tabloid"
+
+#: sliced-invoices-pdf-email.php:189
+msgid "Executive"
+msgstr "Executive"
+
+#: sliced-invoices-pdf-email.php:190
+msgid "Folio"
+msgstr "Folio"
+
+#: sliced-invoices-pdf-email.php:191
+msgid "B"
+msgstr "B"
+
+#: sliced-invoices-pdf-email.php:192
+msgid "A"
+msgstr "A"
+
+#: sliced-invoices-pdf-email.php:193
+msgid "Demy"
+msgstr "Demy"
+
+#: sliced-invoices-pdf-email.php:194
+msgid "Royal"
+msgstr "Royal"
+
+#: sliced-invoices-pdf-email.php:195
+msgid "4A0"
+msgstr "4A0"
+
+#: sliced-invoices-pdf-email.php:196
+msgid "2A0"
+msgstr "2A0"
+
+#: sliced-invoices-pdf-email.php:197
+msgid "A0"
+msgstr "A0"
+
+#: sliced-invoices-pdf-email.php:198
+msgid "A1"
+msgstr "A1"
+
+#: sliced-invoices-pdf-email.php:199
+msgid "A2"
+msgstr "A2"
+
+#: sliced-invoices-pdf-email.php:200
+msgid "A3"
+msgstr "A3"
+
+#: sliced-invoices-pdf-email.php:201
+msgid "A4"
+msgstr "A4"
+
+#: sliced-invoices-pdf-email.php:202
+msgid "A5"
+msgstr "A5"
+
+#: sliced-invoices-pdf-email.php:203
+msgid "A6"
+msgstr "A6"
+
+#: sliced-invoices-pdf-email.php:204
+msgid "A7"
+msgstr "A7"
+
+#: sliced-invoices-pdf-email.php:205
+msgid "A8"
+msgstr "A8"
+
+#: sliced-invoices-pdf-email.php:206
+msgid "A9"
+msgstr "A9"
+
+#: sliced-invoices-pdf-email.php:207
+msgid "A10"
+msgstr "A10"
+
+#: sliced-invoices-pdf-email.php:208
+msgid "B0"
+msgstr "B0"
+
+#: sliced-invoices-pdf-email.php:209
+msgid "B1"
+msgstr "B1"
+
+#: sliced-invoices-pdf-email.php:210
+msgid "B2"
+msgstr "B2"
+
+#: sliced-invoices-pdf-email.php:211
+msgid "B3"
+msgstr "B3"
+
+#: sliced-invoices-pdf-email.php:212
+msgid "B4"
+msgstr "B4"
+
+#: sliced-invoices-pdf-email.php:213
+msgid "B5"
+msgstr "B5"
+
+#: sliced-invoices-pdf-email.php:214
+msgid "B6"
+msgstr "B6"
+
+#: sliced-invoices-pdf-email.php:215
+msgid "B7"
+msgstr "B7"
+
+#: sliced-invoices-pdf-email.php:216
+msgid "B8"
+msgstr "B8"
+
+#: sliced-invoices-pdf-email.php:217
+msgid "B9"
+msgstr "B9"
+
+#: sliced-invoices-pdf-email.php:218
+msgid "B10"
+msgstr "B10"
+
+#: sliced-invoices-pdf-email.php:219
+msgid "C0"
+msgstr "C0"
+
+#: sliced-invoices-pdf-email.php:220
+msgid "C1"
+msgstr "C1"
+
+#: sliced-invoices-pdf-email.php:221
+msgid "C2"
+msgstr "C2"
+
+#: sliced-invoices-pdf-email.php:222
+msgid "C3"
+msgstr "C3"
+
+#: sliced-invoices-pdf-email.php:223
+msgid "C4"
+msgstr "C4"
+
+#: sliced-invoices-pdf-email.php:224
+msgid "C5"
+msgstr "C5"
+
+#: sliced-invoices-pdf-email.php:225
+msgid "C6"
+msgstr "C6"
+
+#: sliced-invoices-pdf-email.php:226
+msgid "C7"
+msgstr "C7"
+
+#: sliced-invoices-pdf-email.php:227
+msgid "C8"
+msgstr "C8"
+
+#: sliced-invoices-pdf-email.php:228
+msgid "C9"
+msgstr "C9"
+
+#: sliced-invoices-pdf-email.php:229
+msgid "C10"
+msgstr "C10"
+
+#: sliced-invoices-pdf-email.php:230
+msgid "RA0"
+msgstr "RA0"
+
+#: sliced-invoices-pdf-email.php:231
+msgid "RA1"
+msgstr "RA1"
+
+#: sliced-invoices-pdf-email.php:232
+msgid "RA2"
+msgstr "RA2"
+
+#: sliced-invoices-pdf-email.php:233
+msgid "RA3"
+msgstr "RA3"
+
+#: sliced-invoices-pdf-email.php:234
+msgid "RA4"
+msgstr "RA4"
+
+#: sliced-invoices-pdf-email.php:235
+msgid "SRA0"
+msgstr "SRA0"
+
+#: sliced-invoices-pdf-email.php:236
+msgid "SRA1"
+msgstr "SRA1"
+
+#: sliced-invoices-pdf-email.php:237
+msgid "SRA2"
+msgstr "SRA2"
+
+#: sliced-invoices-pdf-email.php:238
+msgid "SRA3"
+msgstr "SRA3"
+
+#: sliced-invoices-pdf-email.php:239
+msgid "SRA4"
+msgstr "SRA4"
+
+#: sliced-invoices-pdf-email.php:243
+msgid "Page Orientation"
+msgstr "Seitenausrichtung"
+
+#: sliced-invoices-pdf-email.php:248
+msgid "Portrait"
+msgstr "Hochformat"
+
+#: sliced-invoices-pdf-email.php:249
+msgid "Landscape"
+msgstr "Querformat"
+
+#: sliced-invoices-pdf-email.php:253
+msgid "Page Font Size"
+msgstr "Seiten-Schriftgröße"
+
+#: sliced-invoices-pdf-email.php:254
+msgid ""
+"Default font size to use in the PDF.  Can be overridden by custom CSS, if "
+"any."
+msgstr ""
+"Standardschriftgröße für die Verwendung im PDF. Kann gegebenenfalls durch "
+"benutzerdefiniertes CSS überschrieben werden."
+
+#: sliced-invoices-pdf-email.php:259 sliced-invoices-pdf-email.php:298
+msgid "Default"
+msgstr "Standard"
+
+#: sliced-invoices-pdf-email.php:274
+msgid "Add Unicode Font (.ttf)"
+msgstr "Unicode-Schriftart (.ttf) hinzufügen"
+
+#: sliced-invoices-pdf-email.php:275
+msgid ""
+"If you need to print PDFs in languages requiring unicode characters "
+"(Japanese, Chinese, Korean, etc.), you may upload the required font here. "
+"<br>(For a good source of international language fonts, see <a href="
+"\"https://www.google.com/get/noto/\" target=\"_blank\">Google Noto Fonts</a>)"
+msgstr ""
+"Wenn Sie PDFs in Sprachen drucken möchten, die Unicode-Zeichen erfordern "
+"(Japanisch, Chinesisch, Koreanisch usw.), können Sie hier die erforderliche "
+"Schriftart hochladen. <br>(Eine gute Quelle für internationale Schriftarten "
+"finden Sie unter <a href=\"https://www.google.com/get/noto/\" target=\"_blank"
+"\">Google Noto-Schriftarten</a>)."
+
+#: sliced-invoices-pdf-email.php:283
+msgid "Add Extended Unicode Font (.ttf)"
+msgstr "Erweiterte Unicode-Schriftart (.ttf) hinzufügen"
+
+#: sliced-invoices-pdf-email.php:284
+msgid ""
+"If your unicode font requires a second, extended font file, you may upload "
+"it here."
+msgstr ""
+"Wenn Ihre Unicode-Schriftart eine zweite, erweiterte Schriftartdatei "
+"benötigt, können Sie sie hier hochladen."
+
+#: sliced-invoices-pdf-email.php:292
+msgid "PDF Generation Mode"
+msgstr "PDF-Generierungsmodus"
+
+#: sliced-invoices-pdf-email.php:293
+msgid "Try \"compatibility\" mode if you encounter issues with creating PDFs."
+msgstr ""
+"Versuchen Sie den \"Kompatibilitätsmodus\", wenn Probleme beim Erstellen von "
+"PDFs auftreten."
+
+#: sliced-invoices-pdf-email.php:299
+msgid "Compatibility"
+msgstr "Kompatibilität"
+
+#: sliced-invoices-pdf-email.php:318
+msgid "Body Background"
+msgstr "Hintergrund der Seite"
+
+#: sliced-invoices-pdf-email.php:325
+msgid "Header Background"
+msgstr "Hintergrund der Kopfzeile"
+
+#: sliced-invoices-pdf-email.php:332
+msgid "Content Background"
+msgstr "Hintergrund des Inhalts"
+
+#: sliced-invoices-pdf-email.php:339
+msgid "Content Text Color"
+msgstr "Textfarbe des Inhalts"
+
+#: sliced-invoices-pdf-email.php:346
+msgid "Footer Background"
+msgstr "Hintergrund der Fußzeile"
+
+#: sliced-invoices-pdf-email.php:353
+msgid "Footer Text Color"
+msgstr "Textfarbe der Fußzeile"
+
+#: sliced-invoices-pdf-email.php:360
+msgid "Footer Text"
+msgstr "Text der Fußzeile"
+
+#: sliced-invoices-pdf-email.php:392 sliced-invoices-pdf-email.php:413
+msgid "Custom PDF CSS"
+msgstr "Benutzerdefiniertes CSS zur PDF"
+
+#: sliced-invoices-pdf-email.php:393 sliced-invoices-pdf-email.php:414
+msgid ""
+"Add custom CSS to the PDF. Due to the nature of printing PDF's (and it's "
+"limited support of CSS), occasionally you may need to add extra styles to "
+"get the PDF to look right."
+msgstr ""
+"Fügen Sie benutzerdefiniertes CSS zur PDF hinzu. Aufgrund der Art, PDFs zu "
+"drucken (und die CSS-Unterstützung ist begrenzt), müssen Sie gelegentlich "
+"zusätzliche Stile hinzufügen, damit die PDF-Datei richtig aussieht."
+
+#: sliced-invoices-pdf-email.php:435
+msgid "SSL Verify"
+msgstr "SSL-Verifizierung"
+
+#: sliced-invoices-pdf-email.php:436
+msgid ""
+"Set this to False if there are issues printing PDF's. It may resolve the "
+"issue."
+msgstr ""
+"Setzen Sie dies auf \"False\", wenn beim Drucken von PDFs Probleme "
+"auftreten. Es kann das Problem beheben."
+
+#: sliced-invoices-pdf-email.php:556
+#, php-format
+msgid ""
+"Sliced Invoices PDF Extension has detected your server's memory limit is "
+"very low.  If you experience difficulty generating PDF files, please "
+"increase your PHP memory limit.  For further information, <a href=\"%s\">see "
+"here</a>."
+msgstr ""
+"Die PDF-Erweiterung für Sliced Invoices hat festgestellt, dass das "
+"Speicherlimit Ihres Servers sehr niedrig ist. Wenn Sie Probleme beim "
+"Generieren von PDF-Dateien haben, erhöhen Sie bitte Ihr PHP-Speicherlimit. "
+"Weitere Informationen erhalten Sie <a href=\"%s\">hier</a>."
+
+#: sliced-invoices-pdf-email.php:572
+#, php-format
+msgid ""
+"Sliced Invoices PDF Extension has detected 'mbstring' is not enabled on your "
+"server.  Mbstring is required and must be enabled for PDF functionality to "
+"work properly.  For further information, <a href=\"%s\">see here</a>."
+msgstr ""
+"Die Sliced Invoices PDF-Erweiterung \"mbstring\" ist auf Ihrem Server nicht "
+"aktiviert.  \"Mbstring\" ist erforderlich und muss aktiviert sein, damit die "
+"PDF-Funktionalität ordnungsgemäß funktioniert.  Weitere Informationen finden "
+"Sie <a href=\"%s\">hier</a>."
+
+#: sliced-invoices-pdf-email.php:588
+#, php-format
+msgid ""
+"Hey there, we noticed you are using WP Super Cache, which is great plugin... "
+"However, certain settings in WP Super Cache can potentially conflict with "
+"your Sliced Invoices PDF Extension.  Please be sure to <a href=\"%s\">read "
+"this page</a> to make sure everything keeps running smoothly. --<em>Your "
+"friends at Sliced Invoices</em>"
+msgstr ""
+"Hallo, wir haben bemerkt, dass Sie das Plugin \"WP Super Cache\" benutzen, "
+"welches ein super Plugin ist... Allerdings können bestimmte Einstellungen in "
+"\"WP Super Cache\" im potenziellen Konflikt mit der PDF-Erweiterung "
+"entstehen.  Bitte achten Sie darauf, <a href=\"%s\">diese Seite zu lesen</"
+"a>, um sicherzustellen, dass alles reibungslos läuft. --<em>Ihr Support-Team "
+"von Sliced Invoices!</em>"
+
+#: sliced-invoices-pdf-email.php:630
+#, php-format
+msgid ""
+"Sliced Invoices PDF extension cannot find the required <a href=\"%s\">Sliced "
+"Invoices plugin</a>. Please make sure the core Sliced Invoices plugin is <a "
+"href=\"%s\">installed and activated</a>."
+msgstr ""
+"Die PDF-Erweiterung für Sliced Invoices kann das erforderliche <a href=\"%s"
+"\">Plugin für Sliced Invoices</a> nicht finden. Stellen Sie sicher, dass das "
+"Sliced Invoices-Hauptplugin <a href=\"%s\">installiert und aktiviert</a> ist."
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$s Anzeigen der Version %3$s "
+"Details %4$s."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$s Anzeige der Version %3$s "
+"Details %4$s oder %5$s jetzt aktualisieren %6$s."
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung, um Plugin-Updates zu installieren"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Fehler"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Geben Sie den Lizenzschlüssel für diese Erweiterung ein"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Lizenz: %s"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: updater/plugin-updater.php:343
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"Kein Lizenzschlüssel gefunden. Vergessen Sie nicht, Ihren Lizenzschlüssel "
+"auf der Seite <a href=\"%s\">Lizenzen</a> einzugeben."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"Ihre Lizenz für %s ist abgelaufen. Bitte <a href=\"%s\">erneuern Sie Ihre "
+"Lizenz</a>, um weiterhin Updates und Support zu erhalten."
+
+#: updater/plugin-updater.php:373
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"Ihre Lizenz für %s wurde deaktiviert. Bitte <a href=\"%s\">kontaktieren Sie "
+"uns</a>, um Hilfe zu erhalten."
+
+#: updater/plugin-updater.php:385
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"Ihre Lizenz für %s ist nicht aktiv. Achten Sie darauf, Ihren Lizenzschlüssel "
+"auf der <a href=\"%s\">Lizenzseite</a> zu aktivieren, um Updates und Support "
+"zu erhalten."
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices PDF Email"
+msgstr "Sliced Invoices PDF Email"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/pdf-email/"
+msgstr "https://slicedinvoices.com/extensions/pdf-email/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create PDF invoices and email them direct to clients. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+"Erstellen Sie PDF-Rechnungen und mailen Sie sie direkt an Kunden. "
+"Voraussetzung: Das Sliced Invoices Plugin"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"

@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Sliced Invoices Translate\n"
+"POT-Creation-Date: 2017-07-11 01:35-0700\n"
+"PO-Revision-Date: 2019-06-04 15:58+0200\n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-translate.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-translate.php:183 sliced-invoices-translate.php:186
+#: sliced-invoices-translate.php:189
+msgid "Shown on payment confirmation page for PayPal gateway"
+msgstr "Indicato sulla pagina di conferma del pagamento per il gateway PayPal"
+
+#: sliced-invoices-translate.php:192
+#, php-format
+msgid ""
+"Shown on payment confirmation page for PayPal gateway.<br />%s is a "
+"placeholder for the word \"Invoice\"."
+msgstr ""
+"Indicato sulla pagina di conferma del pagamento per il gateway PayPal. <br />"
+"%s è un segnaposto per la parola “Fattura”."
+
+#: sliced-invoices-translate.php:278
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"È disponibile una nuova versione di %1$s. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\"> Visualizza i dettagli della versione %3$s</a>."
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"È disponibile una nuova versione di %1$s. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\"> Visualizza i dettagli della versione %3$s</a> "
+"oppure <a href=\"%4$s\"> aggiorna ora</a>."
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr "Non hai il permesso di installare aggiornamenti del plugin"
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr "Errore"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Inserisci il codice di licenza per questa estensione"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Licenza: %s"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Disattiva Licenza"
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Attiva Licenza"
+
+#: updater/plugin-updater.php:343 updater/plugin-updater.php:359
+#: updater/plugin-updater.php:382
+msgid "Dismiss"
+msgstr "Ho capito"
+
+#: updater/plugin-updater.php:344
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"Nessuna chiave di licenza trovata. Non dimenticare di inserire il codice di "
+"licenza nella <a href=\"%s\"> pagina Licenze </a>."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"La tua licenza per %s è scaduta. <a href=\"%s\"> rinnova la licenza </a> per "
+"continuare a ricevere aggiornamenti e supporto."
+
+#: updater/plugin-updater.php:371
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"La tua licenza per %s è stata disabilitata. Si prega di <a href=\"%s\"> "
+"contattarci </a> per assistenza."
+
+#: updater/plugin-updater.php:383
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"La tua licenza per %s non è attiva. Assicurati di attivare il codice di "
+"licenza nella <a href=\"%s\"> pagina Licenze </a> per ricevere aggiornamenti "
+"e supporto."
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Translate"
+msgstr "Sliced Invoices Translate"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/easy-translate/"
+msgstr "https://slicedinvoices.com/extensions/easy-translate/"
+
+#. Description of the plugin/theme
+msgid ""
+"Translate text on invoices and quotes without touching any code. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+"Tradurre testo su fatture e preventivi senza toccare alcun codice. "
+"Requisiti: il plugin delle fatture a fette"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"

@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Translate\n"
+"POT-Creation-Date: 2016-07-11 10:05+1000\n"
+"PO-Revision-Date: 2016-07-11 10:05+1000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sliced-invoices-translate.php:148
+msgid "Settings"
+msgstr ""
+
+#: sliced-invoices-translate.php:204
+msgid "Sent"
+msgstr ""
+
+#: sliced-invoices-translate.php:211
+msgid "Declined"
+msgstr ""
+
+#: sliced-invoices-translate.php:218
+msgid "Cancelled"
+msgstr ""
+
+#: sliced-invoices-translate.php:225
+msgid "Paid"
+msgstr ""
+
+#: sliced-invoices-translate.php:232
+msgid "Unpaid"
+msgstr ""
+
+#: sliced-invoices-translate.php:239
+msgid "Overdue"
+msgstr ""
+
+#: sliced-invoices-translate.php:246
+msgid "Draft"
+msgstr ""
+
+#: sliced-invoices-translate.php:254
+msgid "To:"
+msgstr ""
+
+#: sliced-invoices-translate.php:261
+msgid "From:"
+msgstr ""
+
+#: sliced-invoices-translate.php:268
+msgid "Total Due"
+msgstr ""
+
+#: sliced-invoices-translate.php:275
+msgid "Due Date"
+msgstr ""
+
+#: sliced-invoices-translate.php:282
+msgid "Valid Until"
+msgstr ""
+
+#: sliced-invoices-translate.php:289
+msgid "Order Number"
+msgstr ""
+
+#: sliced-invoices-translate.php:296
+msgid "Hrs/Qty"
+msgstr ""
+
+#: sliced-invoices-translate.php:303
+msgid "Service"
+msgstr ""
+
+#: sliced-invoices-translate.php:310
+msgid "Rate/Price"
+msgstr ""
+
+#: sliced-invoices-translate.php:317
+msgid "Adjust"
+msgstr ""
+
+#: sliced-invoices-translate.php:324
+msgid "Sub Total"
+msgstr ""
+
+#: sliced-invoices-translate.php:331
+msgid "Total"
+msgstr ""
+
+#: sliced-invoices-translate.php:338
+msgid "Invoice Number"
+msgstr ""
+
+#: sliced-invoices-translate.php:345
+msgid "Invoice Date"
+msgstr ""
+
+#: sliced-invoices-translate.php:352
+msgid "Quote Number"
+msgstr ""
+
+#: sliced-invoices-translate.php:359
+msgid "Quote Date"
+msgstr ""
+
+#: sliced-invoices-translate.php:366
+msgid "Accept Quote"
+msgstr ""
+
+#: sliced-invoices-translate.php:373
+msgid "Decline Quote"
+msgstr ""
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr ""
+
+#: updater/plugin-updater.php:70
+msgid "Enter the License Key for this extension"
+msgstr ""

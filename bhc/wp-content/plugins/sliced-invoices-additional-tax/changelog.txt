@@ -1,0 +1,46 @@
+1.3.4
+=================================
+* NEW: Spanish translation (thanks to Lolo Marchal).
+* UPDATE: changes for compatibility with forthcoming Sliced Invoices v3.9.0.
+* UPDATE: PHP 8 compatibility.
+
+1.3.3
+=================================
+* FIX: issue with non-standard decimal separators and tax calculation since last update (v1.3.2).
+
+1.3.2
+=================================
+* FIX: change tax rate field from type=number to type=text, because some browsers don't allow non-standard decimal separators to be entered (like commas).
+* FIX: only load admin JS on pages where it is needed.
+* UPDATE: updated German translations (thanks to Thorsten Wollenhöfer).
+
+1.3.1
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: German formal translation (thanks to Thorsten Wollenhöfer)
+* FIX: php notice
+* UPDATE: updated .pot file for translations
+
+1.3.0
+=================================
+* NEW: add support for new features coming in Sliced Invoices v3.7.0, including support for calculating prices inclusive of tax.  Please update now to ensure 100% compatibility.
+* UPDATE: updated .pot file for translations
+
+1.2.0
+=================================
+* NEW: admin notices (intuitively alerts you if there are potential issues needing your attention)
+* FIX: fix "open_basedir restriction" notice on some servers
+* FIX: issue where second tax amount not shown in client area
+* FIX: issue switching tax type from "normal" to "compound"
+* FIX: minor rounding issue
+* UPDATE: update updater
+
+1.1.0
+=================================
+* NEW: add support for new features coming in Sliced Invoices v3.6.0
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva)
+* FIX: legacy compatibility fixes
+
+1.0.0
+=================================
+* Released

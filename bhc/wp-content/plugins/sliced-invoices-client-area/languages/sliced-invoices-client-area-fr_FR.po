@@ -1,0 +1,543 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Client Area\n"
+"POT-Creation-Date: 2017-07-27 14:41+0700\n"
+"PO-Revision-Date: 2017-07-27 14:44+0700\n"
+"Last-Translator: WebMat <contact@webmat.pro>\n"
+"Language-Team: WebMat <contact@webmat.pro>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sliced-invoices-client-area.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-edit-profile.php:57
+msgid "The passwords you entered do not match."
+msgstr "Les mots de passe que vous avez saisis ne correspondent pas."
+
+#: includes/class-edit-profile.php:65
+msgid "Email address is not valid."
+msgstr "L'adresse e-mail n'est pas valide."
+
+#: includes/class-edit-profile.php:67
+msgid "Email address is already taken."
+msgstr "L’adresse e-mail est déjà utilisé."
+
+#: includes/class-edit-profile.php:80
+msgid "Business/Client Name must not be empty."
+msgstr "Entreprise / Nom du client ne doit pas être vide."
+
+#: includes/class-edit-profile.php:89
+msgid "Your client details were successfully updated."
+msgstr "Vos coordonnées ont été mis à jour avec succès."
+
+#: includes/class-login-register.php:361 includes/class-login-register.php:397
+#: includes/class-login-register.php:427
+msgid "You are already signed in."
+msgstr "Vous êtes prêt à vous connecter."
+
+#: includes/class-login-register.php:363 includes/class-login-register.php:816
+msgid "Registering new users is currently not allowed."
+msgstr "Les inscriptions sont closes pour le moment."
+
+#: includes/class-login-register.php:446
+msgid "Invalid password reset link."
+msgstr "Invalide lien réinitialisation de mot de passe."
+
+#: includes/class-login-register.php:666
+msgid "Hello!"
+msgstr "Bonjour !"
+
+#: includes/class-login-register.php:667
+#, php-format
+msgid ""
+"You asked us to reset your password for your account using the email address "
+"%s."
+msgstr ""
+"Vous avez demandé la réinitialisation de votre mot de passe pour l'email %s."
+
+#: includes/class-login-register.php:668
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+"Si il s’agit d’une erreur, ignorez ce message et la demande ne sera pas "
+"prise en compte."
+
+#: includes/class-login-register.php:669
+msgid "To reset your password, visit the following address:"
+msgstr ""
+"Pour réinitialisation votre mot de passe, cliquez sur le lien suivant :"
+
+#: includes/class-login-register.php:671
+msgid "Thanks!"
+msgstr "Merci !"
+
+#: includes/class-login-register.php:791
+msgid "You do have an email address, right?"
+msgstr "Vous n'avez pas d'adresse e-mail ?"
+
+#: includes/class-login-register.php:794
+msgid "You need to enter a password to login."
+msgstr "Vous avez besoins d'entrer un mot de passe pour vous connecter."
+
+#: includes/class-login-register.php:798
+msgid ""
+"We don't have any users with that email address. Maybe you used a different "
+"one when signing up?"
+msgstr ""
+"Nous n’avons aucun utilisateur avec cet email. Peut-être que vous en avez "
+"utilisé un autre lors de l’inscription ?"
+
+#: includes/class-login-register.php:803
+#, php-format
+msgid ""
+"The password you entered wasn't quite right. <a href='%s'>Did you forget "
+"your password</a>?"
+msgstr ""
+"Le mot de passe que vous avez entré n'est pas le bon. <a href='%s'>Avez-vous "
+"oublié votre mot de passe</a> ?"
+
+#: includes/class-login-register.php:810
+msgid "The email address you entered is not valid."
+msgstr "L'email saisi n'est pas valide."
+
+#: includes/class-login-register.php:813
+msgid "An account exists with this email address."
+msgstr "Un compte existe déjà avec cette email."
+
+#: includes/class-login-register.php:819
+msgid "The Google reCAPTCHA check failed. Are you a robot?"
+msgstr "La vérification de reCAPTCHA de Google a échoué. Êtes vous un robot ?"
+
+#: includes/class-login-register.php:823
+msgid "You need to enter your email address to continue."
+msgstr "Vous devez entrer votre adresse courriel pour continuer."
+
+#: includes/class-login-register.php:827
+msgid "There are no users registered with this email address."
+msgstr "Il n’y a aucun utilisateur enregistré avec cette adresse email."
+
+#: includes/class-login-register.php:832
+msgid "The password reset link you used is not valid anymore."
+msgstr "Le lien de réinitialisation du mot de passe n'est plus valable."
+
+#: includes/class-login-register.php:835
+msgid "The two passwords you entered don't match."
+msgstr "Les mots de passe que vous avez saisis ne correspondent pas."
+
+#: includes/class-login-register.php:838
+msgid "Sorry, we don't accept empty passwords."
+msgstr "Désolé, nous n’acceptons pas des mots de passe vides."
+
+#: includes/class-login-register.php:843
+msgid "Captcha error, please try again."
+msgstr "Erreur Captcha, veuillez réessayer."
+
+#: includes/class-login-register.php:849
+msgid "An unknown error occurred. Please try again later."
+msgstr "Une erreur est survenue, veuillez réessayer plus tard."
+
+#: public/templates/client-area.php:40 public/templates/client-area.php:49
+#: public/templates/client-area.php:63 public/templates/client-area.php:84
+#: public/templates/client-area.php:95 public/templates/client-area.php:131
+#: public/templates/client-area.php:169 public/templates/client-area.php:188
+#: public/templates/client-area.php:200 public/templates/client-area.php:237
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: public/templates/client-area.php:218
+msgid "N/A"
+msgstr "N/A"
+
+#: public/templates/edit-profile.php:25
+msgid "Business/Client Name"
+msgstr "Nom de l’entreprise / client"
+
+#: public/templates/edit-profile.php:27
+msgid "The name of your business or your trading name."
+msgstr "Le nom de votre entreprise ou votre nom commercial."
+
+#: public/templates/edit-profile.php:39
+msgid "First Name"
+msgstr "Prénom"
+
+#: public/templates/edit-profile.php:44
+msgid "Last Name"
+msgstr "Nom"
+
+#: public/templates/edit-profile.php:53
+msgid "E-mail *"
+msgstr "Email *"
+
+#: public/templates/edit-profile.php:58
+msgid "Website"
+msgstr "Site web"
+
+#: public/templates/edit-profile.php:69
+msgid "Address"
+msgstr "Adresse"
+
+#: public/templates/edit-profile.php:71
+msgid "Format the Address any way you like. HTML is allowed."
+msgstr "Mise en page de l'adresse comme vous le souhaitez. HTML est autorisé."
+
+#: public/templates/edit-profile.php:75
+msgid "Extra Info"
+msgstr "Info supplémentaire"
+
+#: public/templates/edit-profile.php:77
+msgid "Phone number, business number, VAT details etc. HTML is allowed."
+msgstr ""
+"Numéro de téléphone, numéro d'entreprise, autres informations pratiques, "
+"etc. HTML est autorisé."
+
+#: public/templates/edit-profile.php:84
+msgid "Update Details"
+msgstr "Mettre à jour"
+
+#: public/templates/login.php:19
+msgid "Login failed, please try again."
+msgstr "La connexion a échoué, veuillez réessayer."
+
+#: public/templates/login.php:26 sliced-invoices-client-area.php:446
+msgid "Login"
+msgstr "Connexion"
+
+#: public/templates/login.php:29
+msgid "Username"
+msgstr "Identifiant"
+
+#: public/templates/login.php:33 public/templates/login_form.php:60
+#: public/templates/login_form.php:89 sliced-invoices-client-area.php:466
+msgid "Password"
+msgstr "Mot de passe"
+
+#: public/templates/login.php:40 public/templates/login_form.php:66
+#: sliced-invoices-client-area.php:476
+msgid "Remember Me"
+msgstr "Se rappeler de moi"
+
+#: public/templates/login.php:45
+msgid "Log In"
+msgstr "Connexion"
+
+#: public/templates/login_form.php:11 public/templates/login_form.php:68
+#: public/templates/login_form.php:96 sliced-invoices-client-area.php:486
+msgid "Sign In"
+msgstr "Le Login"
+
+#: public/templates/login_form.php:26 sliced-invoices-client-area.php:536
+msgid "You have signed out. Would you like to sign in again?"
+msgstr "Vous êtes déconnecté. Souhaitez-vous vous reconnecter ?"
+
+#: public/templates/login_form.php:34
+#, php-format
+msgid ""
+"You have successfully registered to <strong>%s</strong>. We have emailed "
+"your password to the email address you entered."
+msgstr ""
+"La création de votre compte est un succès sur <strong>%s</strong>. Nous vous "
+"avons envoyé un email à l'adresse email que vous avez spécifié."
+
+#: public/templates/login_form.php:43 sliced-invoices-client-area.php:506
+msgid "Check your email for a link to reset your password."
+msgstr ""
+"Vérifiez vos emails pour le lien de réinitialisation de votre mot de passe."
+
+#: public/templates/login_form.php:49 sliced-invoices-client-area.php:516
+msgid "Your password has been changed. You can sign in now."
+msgstr ""
+"Votre mot de passe a été modifié, vous pouvez vous connecter maintenant."
+
+#: public/templates/login_form.php:56 public/templates/login_form.php:85
+#: public/templates/password_lost_form.php:31
+#: sliced-invoices-client-area.php:456
+msgid "Email or Username"
+msgstr "Email ou identifiant"
+
+#: public/templates/login_form.php:77 sliced-invoices-client-area.php:496
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+#: public/templates/password_lost_form.php:9 sliced-invoices-client-area.php:48
+msgid "Forgot Your Password?"
+msgstr "Mot de Passe Oublié ?"
+
+#: public/templates/password_lost_form.php:23
+msgid ""
+"Enter your email address and we'll send you a link you can use to pick a new "
+"password."
+msgstr ""
+"Entrer votre adresse email et nous vous enverrons un lien que vous pourrez "
+"utiliser pour choisir un nouveau mot de passe."
+
+#: public/templates/password_lost_form.php:39
+#: public/templates/password_reset_form.php:39
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: public/templates/password_reset_form.php:9
+#: sliced-invoices-client-area.php:52
+msgid "Pick a New Password"
+msgstr "Veuillez saisir un nouveau mot de passe"
+
+#: public/templates/password_reset_form.php:25
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: public/templates/password_reset_form.php:29
+msgid "Repeat new password"
+msgstr "Répéter le nouveau mot de passe"
+
+#: public/templates/register_form.php:9 public/templates/register_form.php:52
+msgid "Register"
+msgstr "Inscription"
+
+#: public/templates/register_form.php:22
+msgid "Email"
+msgstr "Email"
+
+#: public/templates/register_form.php:27
+msgid "First name"
+msgstr "Prénom"
+
+#: public/templates/register_form.php:32
+msgid "Last name"
+msgstr "Nom"
+
+#: public/templates/register_form.php:37
+msgid ""
+"Note: Your password will be generated automatically and emailed to the "
+"address you specify above."
+msgstr ""
+"Remarque : Votre mot de passe sera généré automatiquement et envoyé par "
+"courrier électronique à l’adresse que vous avez spécifiée ci-dessus."
+
+#: sliced-invoices-client-area.php:40 sliced-invoices-client-area.php:410
+msgid "Client Area"
+msgstr "Espace client"
+
+#: sliced-invoices-client-area.php:56 sliced-invoices-client-area.php:360
+#: sliced-invoices-client-area.php:372 sliced-invoices-client-area.php:426
+msgid "Edit Profile"
+msgstr "Modifier le profil"
+
+#: sliced-invoices-client-area.php:213
+msgid "Settings"
+msgstr "Réglages"
+
+#: sliced-invoices-client-area.php:337
+msgid "Client Area Page"
+msgstr "Page Espace client"
+
+#: sliced-invoices-client-area.php:338
+msgid ""
+"Choose the page to use as the Client Area. Must have the [sliced-client-"
+"area] shortcode on this page."
+msgstr ""
+"Choisissez la page à utiliser comme la zone cliente. Doit avoir le shortcode "
+"[sliced-client-area] sur cette page."
+
+#: sliced-invoices-client-area.php:345
+msgid "Edit Profile Page"
+msgstr "Modifier la page de Profil"
+
+#: sliced-invoices-client-area.php:346
+msgid ""
+"Choose the page to use as the Edit Profile page for your clients. Must have "
+"the [sliced-edit-profile] shortcode on this page."
+msgstr ""
+"Choisissez la page à utiliser comme la page modifier le profil de vos "
+"clients. Doit avoir le shortcode [sliced-client-area] sur cette page."
+
+#: sliced-invoices-client-area.php:353
+msgid "Quote & Invoice Links"
+msgstr "Liens devis et factures"
+
+#: sliced-invoices-client-area.php:354
+msgid "Choose which links to display on individual Quotes & Invoices"
+msgstr "Choisissez quel lien à afficher sur devis et factures individuels"
+
+#: sliced-invoices-client-area.php:359 sliced-invoices-client-area.php:371
+#: sliced-invoices-client-area.php:416
+msgid "My Account"
+msgstr "Mon Compte"
+
+#: sliced-invoices-client-area.php:361 sliced-invoices-client-area.php:373
+#: sliced-invoices-client-area.php:526
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: sliced-invoices-client-area.php:365
+msgid "Client Area Links"
+msgstr "Liens Espace Client"
+
+#: sliced-invoices-client-area.php:366
+msgid ""
+"Choose which links to display within the Client Area and Edit Profile pages"
+msgstr ""
+"Choisissez quels liens afficher sur les pages de l'espace client et "
+"d'édition de profil"
+
+#: sliced-invoices-client-area.php:377
+msgid "Allow Sliced Invoices to manage user login/logout"
+msgstr ""
+"Permettre à Sliced Invoices de manager l’authentification des utilisateurs"
+
+#: sliced-invoices-client-area.php:378
+msgid "Uncheck this if you need to use other plugin(s) for user authentication"
+msgstr ""
+"Décocher ceci si vous avez besoin d’utiliser d’autres extension(s) pour "
+"l’authentification des utilisateurs"
+
+#: sliced-invoices-client-area.php:436
+msgid "Home"
+msgstr "Accueil"
+
+#: sliced-invoices-client-area.php:546
+msgid "Account Snapshot"
+msgstr "Aperçu de compte"
+
+#: sliced-invoices-client-area.php:556
+msgid "Quotes Pending"
+msgstr "Devis en attente"
+
+#: sliced-invoices-client-area.php:566
+msgid "awaiting response"
+msgstr "en attente de réponse"
+
+#: sliced-invoices-client-area.php:576
+msgid "Total Outstanding"
+msgstr "Total en attente"
+
+#: sliced-invoices-client-area.php:586
+msgid "awaiting payment"
+msgstr "en attente de paiement"
+
+#: sliced-invoices-client-area.php:596
+msgid "Currently no Quotes"
+msgstr "Aucune devis trouvés"
+
+#: sliced-invoices-client-area.php:606
+msgid "Currently no Invoices"
+msgstr "Aucune factures trouvées"
+
+#: sliced-invoices-client-area.php:616
+msgid "Date"
+msgstr "Date"
+
+#: sliced-invoices-client-area.php:626
+msgid "Due"
+msgstr "Échéance"
+
+#: sliced-invoices-client-area.php:636
+msgid "Status"
+msgstr "Statut"
+
+#: sliced-invoices-client-area.php:646
+msgid "Number"
+msgstr "Numéro"
+
+#: sliced-invoices-client-area.php:656
+msgid "View Quote"
+msgstr "Voir le devis"
+
+#: sliced-invoices-client-area.php:666
+msgid "View Invoice"
+msgstr "Voir la facture"
+
+#: sliced-invoices-client-area.php:676
+msgid "Search"
+msgstr "Rechercher"
+
+#: sliced-invoices-client-area.php:686
+msgid "Copy"
+msgstr "Copier"
+
+#: sliced-invoices-client-area.php:696
+msgid "Previous"
+msgstr "Précédente"
+
+#: sliced-invoices-client-area.php:706
+msgid "Next"
+msgstr "﻿Suivant"
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Voir les détails de la version %3$s</a>."
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Voir les détails de la version %3$s</a> ou <a "
+"href=\"%4$s\">mettre à jour</a>."
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n'avez pas la permission de mettre à jour des plugins"
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr "Erreur"
+
+#: updater/plugin-updater.php:70
+msgid "Enter the License Key for this extension"
+msgstr "Entrer la clé de licence pour cette extension"
+
+#: updater/plugin-updater.php:89
+#, php-format
+msgid "License: %s"
+msgstr "Licence : %s"
+
+#: updater/plugin-updater.php:97
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: updater/plugin-updater.php:98
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Client Area"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://slicedinvoices.com/extensions/client-area/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Creates a secure area for clients to view their invoices and quotes. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+"Créez une zone sécurisée pour vos clients afin qu'ils puissent consulter "
+"leurs factures et devis. Requis : L'extension Sliced Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://slicedinvoices.com/"
+msgstr ""
