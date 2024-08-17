@@ -1,0 +1,133 @@
+1.7.0
+=================================
+* NEW: option to set default sorting of quotes/invoices in client area.
+* UPDATE: minor refactoring; changes for compatibility with forthcoming Sliced Invoices v3.9.0.
+* UPDATE: updated Spanish translation (thanks to Lolo Marchal).
+* UPDATE: updated .pot file for translations.
+
+1.6.4
+=================================
+* FIX: issue with edit profile template (mixing up user ID with post ID)
+* UPDATE: German translation update (thanks to Thorsten Wollenhöfer)
+
+1.6.3
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: Italian translation (thanks to Alessio Simone)
+* UPDATE: updated German and German formal translations
+* UPDATE: updated .pot file for translations
+
+1.6.2
+=================================
+* NEW: German and German formal translations (thanks to Thorsten Wollenhöfer)
+* UPDATE: compatibility with Sliced Invoices v3.8.0
+
+1.6.1
+=================================
+* FIX: issue with scripts/styles (including datatables and fontawesome) being loaded site-wide, instead of just on the client area pages where they are actually needed
+* FIX: minor translation issues (mismatched text domains)
+* UPDATE: update .pot file for translations
+
+1.6.0
+=================================
+* NEW: add options to hide quotes and/or invoices from client area, if desired
+* NEW: admin notices (intuitively alerts you if there are potential issues needing your attention)
+* NEW: French translation (thanks to Web Mat)
+* NEW: Spanish translation (thanks to Lolo Marchal)
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva)
+* FIX: make sure we show "N/A" if no date exists
+* UPDATE: update updater
+* UPDATE: add .pot file for future translations
+
+1.5.0
+=================================
+* NEW: add support for "accepted", "expired" quote statuses
+* NEW: add filter 'sliced_client_area_login_link'
+* NEW: add filter 'sliced_client_area_logout_link'
+* NEW: add filter 'sliced_client_area_home_link'
+* NEW: add filter 'sliced_client_area_editprofile_link'
+* NEW: add filter 'sliced_client_area_myaccount_link'
+* UPDATE: Change way scripts/styles are loaded, for compatibility with certain themes
+
+1.4.0
+=================================
+* NEW: allow client area to be customized by adding a template file to your theme/child theme
+
+1.3.1
+=================================
+* FIX: redirection issue
+
+1.3.0
+=================================
+* NEW: Add support for Captcha by BestWebSoft plugin, other captcha plugins
+* FIX: minor bugfix
+
+1.2.1
+=================================
+* FIX: Minor bugfix
+
+1.2.0
+=================================
+* FIX: issue with user id not passing to client area via shortcode
+
+1.1.9
+=================================
+* FIX: issue with pagination
+* FIX: minor CSS issue
+
+1.1.8
+=================================
+* UPDATE: Add setting "Allow Sliced Invoices to manage user login/logout"
+
+1.1.7
+=================================
+* FIX: issue with broken home link when WordPress is installed in sub-directory
+
+1.1.6
+=================================
+* UPDATE: Better handling of user flow (login/logout/forgot password)
+* UPDATE: Compatibility update with Easy Translate Extension v1.1.6
+
+1.1.5
+=================================
+* FIX: Add missing fields to translate settings (when using Easy Translate Extension)
+* NEW: add support for qTranslate X (i18n multilingual)
+
+1.1.4
+=================================
+* UPDATE: Compatibility update with Easy Translate Extension v1.1.4
+
+1.1.3
+=================================
+* NEW: Create .po and .mo files ready for translation
+
+1.1.2
+=================================
+* NEW: Add password forgot and reset options
+* UPDATE: Remove button and field styling - allow the theme to handle this
+* UPDATE: Remove password fields in Client Profile page
+* FIX: Error with updater not displaying update message
+
+1.1.1
+=================================
+* FIX: Undefined index notices within updater
+
+1.1.0
+=================================
+* NEW: Add licenses and one-click updates
+
+1.0.3
+=================================
+* FIX: Issue with client details and id filter. Was messing with Recurring extension
+
+1.0.2
+=================================
+* FIX: Issue with blank white screen when logging in
+
+1.0.1
+=================================
+* UPDATE: Add options to display links of your choice in client area and on invoices
+
+1.0.0
+=================================
+* Released

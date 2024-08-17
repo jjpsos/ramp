@@ -1,0 +1,367 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices PDF Email\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-12 20:27+0000\n"
+"PO-Revision-Date: 2017-01-16 18:56+0000\n"
+"Last-Translator: Lolo Marchal <info@chipweb.es>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: sliced-invoices-pdf-email.php:164
+msgid "Select paper size for generated PDFs"
+msgstr "Seleccionar tamaño de papel para los PDFs generados"
+
+#: sliced-invoices-pdf-email.php:169
+msgid "Letter"
+msgstr "Carta"
+
+#: sliced-invoices-pdf-email.php:170
+msgid "Legal"
+msgstr "Legal"
+
+#: sliced-invoices-pdf-email.php:171
+msgid "Ledger"
+msgstr "Libro Mayor"
+
+#: sliced-invoices-pdf-email.php:172
+msgid "Tabloid"
+msgstr "Gaceta"
+
+#: sliced-invoices-pdf-email.php:173
+msgid "Executive"
+msgstr "Ejecutivo"
+
+#: sliced-invoices-pdf-email.php:174
+msgid "Folio"
+msgstr "Folio"
+
+#: sliced-invoices-pdf-email.php:175
+msgid "B"
+msgstr "B"
+
+#: sliced-invoices-pdf-email.php:176
+msgid "A"
+msgstr "A"
+
+#: sliced-invoices-pdf-email.php:177
+msgid "Demy"
+msgstr "Demy"
+
+#: sliced-invoices-pdf-email.php:178
+msgid "Royal"
+msgstr "Royal"
+
+#: sliced-invoices-pdf-email.php:179
+msgid "4A0"
+msgstr "4A0"
+
+#: sliced-invoices-pdf-email.php:180
+msgid "2A0"
+msgstr "2A0"
+
+#: sliced-invoices-pdf-email.php:181
+msgid "A0"
+msgstr "A0"
+
+#: sliced-invoices-pdf-email.php:182
+msgid "A1"
+msgstr "A1"
+
+#: sliced-invoices-pdf-email.php:183
+msgid "A2"
+msgstr "A2"
+
+#: sliced-invoices-pdf-email.php:184
+msgid "A3"
+msgstr "A3"
+
+#: sliced-invoices-pdf-email.php:185
+msgid "A4"
+msgstr "A4"
+
+#: sliced-invoices-pdf-email.php:186
+msgid "A5"
+msgstr "A5"
+
+#: sliced-invoices-pdf-email.php:187
+msgid "A6"
+msgstr "A6"
+
+#: sliced-invoices-pdf-email.php:188
+msgid "A7"
+msgstr "A7"
+
+#: sliced-invoices-pdf-email.php:189
+msgid "A8"
+msgstr "A8"
+
+#: sliced-invoices-pdf-email.php:190
+msgid "A9"
+msgstr "A9"
+
+#: sliced-invoices-pdf-email.php:191
+msgid "A10"
+msgstr "A10"
+
+#: sliced-invoices-pdf-email.php:192
+msgid "B0"
+msgstr "B0"
+
+#: sliced-invoices-pdf-email.php:193
+msgid "B1"
+msgstr "B1"
+
+#: sliced-invoices-pdf-email.php:194
+msgid "B2"
+msgstr "B2"
+
+#: sliced-invoices-pdf-email.php:195
+msgid "B3"
+msgstr "B3"
+
+# 
+# 
+# 
+#: sliced-invoices-pdf-email.php:196
+msgid "B4"
+msgstr "B4"
+
+#: sliced-invoices-pdf-email.php:197
+msgid "B5"
+msgstr "B5"
+
+#: sliced-invoices-pdf-email.php:198
+msgid "B6"
+msgstr "B6"
+
+#: sliced-invoices-pdf-email.php:199
+msgid "B7"
+msgstr "B7"
+
+#: sliced-invoices-pdf-email.php:200
+msgid "B8"
+msgstr "B8"
+
+#: sliced-invoices-pdf-email.php:201
+msgid "B9"
+msgstr "B9"
+
+#: sliced-invoices-pdf-email.php:202
+msgid "B10"
+msgstr "B10"
+
+#: sliced-invoices-pdf-email.php:203
+msgid "C0"
+msgstr "C0"
+
+#: sliced-invoices-pdf-email.php:204
+msgid "C1"
+msgstr "C1"
+
+#: sliced-invoices-pdf-email.php:205
+msgid "C2"
+msgstr "C2"
+
+#: sliced-invoices-pdf-email.php:206
+msgid "C3"
+msgstr "C3"
+
+#: sliced-invoices-pdf-email.php:207
+msgid "C4"
+msgstr "C4"
+
+#: sliced-invoices-pdf-email.php:208
+msgid "C5"
+msgstr "C5"
+
+#: sliced-invoices-pdf-email.php:209
+msgid "C6"
+msgstr "C6"
+
+#: sliced-invoices-pdf-email.php:210
+msgid "C7"
+msgstr "C7"
+
+#: sliced-invoices-pdf-email.php:211
+msgid "C8"
+msgstr "C8"
+
+#: sliced-invoices-pdf-email.php:212
+msgid "C9"
+msgstr "C9"
+
+#: sliced-invoices-pdf-email.php:213
+msgid "C10"
+msgstr "C10"
+
+#: sliced-invoices-pdf-email.php:214
+msgid "RA0"
+msgstr "RA0"
+
+#: sliced-invoices-pdf-email.php:215
+msgid "RA1"
+msgstr "RA1"
+
+#: sliced-invoices-pdf-email.php:216
+msgid "RA2"
+msgstr "RA2"
+
+#: sliced-invoices-pdf-email.php:217
+msgid "RA3"
+msgstr "RA3"
+
+#: sliced-invoices-pdf-email.php:218
+msgid "RA4"
+msgstr "RA4"
+
+#: sliced-invoices-pdf-email.php:219
+msgid "SRA0"
+msgstr "SRA0"
+
+#: sliced-invoices-pdf-email.php:220
+msgid "SRA1"
+msgstr "SRA1"
+
+#: sliced-invoices-pdf-email.php:221
+msgid "SRA2"
+msgstr "SRA2"
+
+#: sliced-invoices-pdf-email.php:222
+msgid "SRA3"
+msgstr "SRA3"
+
+#: sliced-invoices-pdf-email.php:223
+msgid "SRA4"
+msgstr "SRA4"
+
+#: sliced-invoices-pdf-email.php:227
+msgid "Page Orientation"
+msgstr "Orientación de Página"
+
+#: sliced-invoices-pdf-email.php:232
+msgid "Portrait"
+msgstr "Vertical"
+
+#: sliced-invoices-pdf-email.php:233
+msgid "Landscape"
+msgstr "Horizontal"
+
+#: sliced-invoices-pdf-email.php:251
+msgid "PDF Generation Mode"
+msgstr "Modo de Generación de PDF"
+
+#: sliced-invoices-pdf-email.php:252
+msgid ""
+"Try \"slow\" if you encounter issues with creating PDFs, otherwise use "
+"\"fast\"."
+msgstr ""
+"Prueba \"lento\" si encuentras problemas con la creación de PDFs. Si no los "
+"encuentras usa mejor \"Rápido\""
+
+#: sliced-invoices-pdf-email.php:257
+msgid "Fast"
+msgstr "Rápido"
+
+#: sliced-invoices-pdf-email.php:258
+msgid "Slow"
+msgstr "Lento"
+
+#: sliced-invoices-pdf-email.php:277
+msgid "Body Background"
+msgstr "Color del Body (Cuerpo)"
+
+#: sliced-invoices-pdf-email.php:284
+msgid "Header Background"
+msgstr "Fondo de Cabecera"
+
+#: sliced-invoices-pdf-email.php:291
+msgid "Content Background"
+msgstr "Fondo de Contenido"
+
+#: sliced-invoices-pdf-email.php:298
+msgid "Content Text Color"
+msgstr "Color del Texto del Contenido"
+
+#: sliced-invoices-pdf-email.php:305
+msgid "Footer Background"
+msgstr "Fondo del Pie"
+
+#: sliced-invoices-pdf-email.php:312
+msgid "Footer Text Color"
+msgstr "Color del Texto del Pie"
+
+#: sliced-invoices-pdf-email.php:319
+msgid "Footer Text"
+msgstr "Texto del Pie"
+
+#: sliced-invoices-pdf-email.php:351 sliced-invoices-pdf-email.php:372
+msgid "Custom PDF CSS"
+msgstr "CSS Personalizado para los PDF"
+
+#: sliced-invoices-pdf-email.php:352 sliced-invoices-pdf-email.php:373
+msgid ""
+"Add custom CSS to the PDF. Due to the nature of printing PDF's (and it's "
+"limited support of CSS), occasionally you may need to add extra styles to "
+"get the PDF to look right."
+msgstr ""
+"Añade CSS personalizado a los PDFs. Debido a la naturaleza de la impresión "
+"PDF (y su limitado soporte de CSS), es posible que necesites algo de estilo "
+"extra para que tus PDFs se vean bien."
+
+#: sliced-invoices-pdf-email.php:394
+msgid "SSL Verify"
+msgstr "Verificación SSL"
+
+#: sliced-invoices-pdf-email.php:395
+msgid ""
+"Set this to False if there are issues printing PDF's. It may resolve the "
+"issue."
+msgstr ""
+"Asignar esto a \"Falso\" si tienes problemas imprimiendo PDF's. Esto debe "
+"resolver el problema"
+
+#: includes/pdf/class-sliced-pdf.php:76
+msgid "PDF"
+msgstr "PDF"
+
+#: includes/pdf/class-sliced-pdf.php:139
+msgid "Paid"
+msgstr "Pagado"
+
+#: includes/pdf/class-sliced-pdf.php:147
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. Name of the plugin
+msgid "Sliced Invoices PDF Email"
+msgstr "Sliced Invoices PDF Email"
+
+#. Description of the plugin
+msgid ""
+"Create PDF invoices and email them direct to clients. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+"Crea facturas en PDF y envíalas por email directamente a tus clientes. "
+"Requisitos: El Plugin Sliced Invoices"
+
+#. URI of the plugin
+msgid "https://slicedinvoices.com/extensions/pdf-email/"
+msgstr "https://slicedinvoices.com/extensions/pdf-email/"
+
+#. Author of the plugin
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Author URI of the plugin
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"
+
+#: sliced-invoices-pdf-email.php:163
+msgid "Page Size"
+msgstr "Tamaño de Página"

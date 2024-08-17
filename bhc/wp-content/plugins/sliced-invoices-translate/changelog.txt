@@ -1,0 +1,94 @@
+1.3.2
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: German translation (thanks to Reinhard Frenzel)
+* NEW: Italian translation (thanks to Alessio Simone)
+* FIX: php notice
+* UPDATE: update .pot file for translations
+
+1.3.1
+=================================
+* NEW: French translation (thanks to Web Mat)
+* UPDATE: add additional translatable fields
+* FIX: minor conflict with qTranslate-X
+* FIX: PHP strict standards notice
+
+1.3.0
+=================================
+* NEW: Admin notices (intuitively alerts you if there are potential issues needing your attention)
+* NEW: Spanish translation (thanks to Lolo Marchal)
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva)
+* UPDATE: add additional translatable field
+
+1.2.4
+=================================
+* UPDATE: add additional translatable fields
+
+1.2.3
+=================================
+* UPDATE: add additional translatable fields
+* FIX: issue with emailed PDFs not translating
+
+1.2.2
+=================================
+* FIX: minor fix for backwards compatibility
+
+1.2.1
+=================================
+* FIX: bug fix (allow sliced_translate_some_text to be called both statically and in object context)
+
+1.2.0
+=================================
+* UPDATE: add additional translatable fields
+* UPDATE: refactor code
+* FIX: conflict with WordPress.org community translations
+
+1.1.7
+=================================
+* UPDATE: add additional translatable fields
+
+1.1.6
+=================================
+* UPDATE: add additional translatable fields
+
+1.1.5
+=================================
+* NEW: add support for qTranslate X (i18n multilingual)
+* UPDATE: Improved handling of quote & invoice statuses
+* FIX: Add missing fields to translate settings
+
+1.1.4
+=================================
+* UPDATE: Add gateway "Pay With..." and Client Area buttons to Translate Options
+
+1.1.3
+=================================
+* NEW: Add support for non-latin characters in username/client name fields
+
+1.1.2
+=================================
+* NEW: Create .po and .mo files ready for translation
+
+1.1.1
+=================================
+* FIX: Undefined index notices within updater
+
+1.1.0
+=================================
+* NEW: Add licenses and one-click updates
+
+1.0.3
+=================================
+Fix errors with PHP 7 and array_push
+
+1.0.2
+=================================
+* NEW: Add Invoice and Quote Status strings
+
+1.0.1
+=================================
+* NEW: Add Accept Quote and Decline Quote strings
+
+1.0.0
+=================================
+* Released

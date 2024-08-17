@@ -1,0 +1,643 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sliced Invoices Client Area\n"
+"POT-Creation-Date: 2022-04-15 23:13-0700\n"
+"PO-Revision-Date: 2017-11-16 17:11-0800\n"
+"Last-Translator: \n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-client-area.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:54
+#: admin/includes/class-sliced-invoices-client-area-admin.php:79
+#: admin/includes/class-sliced-invoices-client-area-admin.php:165
+#: admin/includes/class-sliced-invoices-client-area-admin.php:198
+#: includes/sliced-invoices-client-area-activate.php:20
+msgid "Client Area"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:60
+msgid "Hide Invoices"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:61
+msgid "Yes, hide the Invoices section from the Client Area, I won't need this"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:84
+msgid "Client Area Page"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:85
+msgid ""
+"Choose the page to use as the Client Area. Must have the [sliced-client-"
+"area] shortcode on this page."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:92
+msgid "Edit Profile Page"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:93
+msgid ""
+"Choose the page to use as the Edit Profile page for your clients. Must have "
+"the [sliced-edit-profile] shortcode on this page."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:100
+msgid "Quote & Invoice Links"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:101
+msgid "Choose which links to display on individual Quotes & Invoices"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:106
+#: admin/includes/class-sliced-invoices-client-area-admin.php:118
+#: admin/includes/class-sliced-invoices-client-area-admin.php:203
+#: includes/class-sliced-client-area.php:200
+msgid "My Account"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:107
+#: admin/includes/class-sliced-invoices-client-area-admin.php:119
+#: admin/includes/class-sliced-invoices-client-area-admin.php:212
+#: includes/class-sliced-client-area.php:201
+#: includes/sliced-invoices-client-area-activate.php:36
+msgid "Edit Profile"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:108
+#: admin/includes/class-sliced-invoices-client-area-admin.php:120
+#: admin/includes/class-sliced-invoices-client-area-admin.php:302
+#: includes/class-sliced-client-area.php:204
+msgid "Logout"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:112
+msgid "Client Area Links"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:113
+msgid ""
+"Choose which links to display within the Client Area and Edit Profile pages"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:124
+msgid "Allow Sliced Invoices to manage user login/logout"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:125
+msgid "Uncheck this if you need to use other plugin(s) for user authentication"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:142
+msgid "Default sorting"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:143
+msgid "Choose how quotes/invoices should be sorted in the Client Area."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:148
+msgid "Newest to oldest"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:149
+msgid "Oldest to newest"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:171
+msgid "Hide Quotes"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:172
+msgid "Yes, hide the Quotes section from the Client Area, I won't need this"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:221
+#: includes/class-sliced-client-area.php:202
+msgid "Home"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:230
+#: includes/class-sliced-client-area.php:203 public/templates/login.php:26
+msgid "Login"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:239
+#: includes/class-sliced-client-area.php:192
+msgid "Email or Username"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:248
+#: includes/class-sliced-client-area.php:193
+msgid "Password"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:257
+#: includes/class-sliced-client-area.php:194
+msgid "Remember Me"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:266
+#: includes/class-sliced-client-area.php:195
+msgid "Sign In"
+msgstr "Le Login"
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:275
+#: includes/class-sliced-client-area.php:196
+msgid "Forgot your password?"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:284
+#: includes/class-sliced-client-area.php:197
+msgid "Check your email for a link to reset your password."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:293
+#: includes/class-sliced-client-area.php:198
+msgid "Your password has been changed. You can sign in now."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:311
+#: includes/class-sliced-client-area.php:199
+msgid "You have signed out. Would you like to sign in again?"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:320
+#: includes/class-sliced-client-area.php:205
+msgid "Account Snapshot"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:329
+#: includes/class-sliced-client-area.php:206
+msgid "Quotes Pending"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:338
+#: includes/class-sliced-client-area.php:207
+msgid "awaiting response"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:347
+#: includes/class-sliced-client-area.php:208
+msgid "Total Outstanding"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:356
+#: includes/class-sliced-client-area.php:209
+msgid "awaiting payment"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:365
+#: includes/class-sliced-client-area.php:210
+msgid "Currently no Quotes"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:374
+#: includes/class-sliced-client-area.php:211
+msgid "Currently no Invoices"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:383
+#: includes/class-sliced-client-area.php:212
+msgid "Date"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:392
+#: includes/class-sliced-client-area.php:213
+msgid "Due"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:401
+#: includes/class-sliced-client-area.php:214
+msgid "Status"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:410
+#: includes/class-sliced-client-area.php:215
+msgid "Number"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:419
+#: includes/class-sliced-client-area.php:216
+msgid "View Quote"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:428
+#: includes/class-sliced-client-area.php:217
+msgid "View Invoice"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:437
+#: includes/class-sliced-client-area.php:218
+msgid "Search"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:446
+#: includes/class-sliced-client-area.php:219
+msgid "Copy"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:455
+#: includes/class-sliced-client-area.php:220
+msgid "Previous"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:464
+#: includes/class-sliced-client-area.php:221
+msgid "Next"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-client-area-admin.php:502
+msgid "Settings"
+msgstr ""
+
+#: includes/class-sliced-client-area.php:449
+#, php-format
+msgid ""
+"Sliced Invoices Client Area extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+
+#: includes/class-sliced-edit-profile.php:57
+msgid "The passwords you entered do not match."
+msgstr ""
+
+#: includes/class-sliced-edit-profile.php:65
+msgid "Email address is not valid."
+msgstr ""
+
+#: includes/class-sliced-edit-profile.php:67
+msgid "Email address is already taken."
+msgstr ""
+
+#: includes/class-sliced-edit-profile.php:80
+msgid "Business/Client Name must not be empty."
+msgstr ""
+
+#: includes/class-sliced-edit-profile.php:89
+msgid "Your client details were successfully updated."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:361
+#: includes/class-sliced-login-register.php:397
+#: includes/class-sliced-login-register.php:427
+msgid "You are already signed in."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:363
+#: includes/class-sliced-login-register.php:816
+msgid "Registering new users is currently not allowed."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:446
+msgid "Invalid password reset link."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:666
+msgid "Hello!"
+msgstr ""
+
+#: includes/class-sliced-login-register.php:667
+#, php-format
+msgid ""
+"You asked us to reset your password for your account using the email address "
+"%s."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:668
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:669
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/class-sliced-login-register.php:671
+msgid "Thanks!"
+msgstr ""
+
+#: includes/class-sliced-login-register.php:791
+msgid "You do have an email address, right?"
+msgstr ""
+
+#: includes/class-sliced-login-register.php:794
+msgid "You need to enter a password to login."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:798
+msgid ""
+"We don't have any users with that email address. Maybe you used a different "
+"one when signing up?"
+msgstr ""
+
+#: includes/class-sliced-login-register.php:803
+#, php-format
+msgid ""
+"The password you entered wasn't quite right."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:810
+msgid "The email address you entered is not valid."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:813
+msgid "An account exists with this email address."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:819
+msgid "The Google reCAPTCHA check failed. Are you a robot?"
+msgstr ""
+
+#: includes/class-sliced-login-register.php:823
+msgid "You need to enter your email address to continue."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:827
+msgid "There are no users registered with this email address."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:832
+msgid "The password reset link you used is not valid anymore."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:835
+msgid "The two passwords you entered don't match."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:838
+msgid "Sorry, we don't accept empty passwords."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:843
+msgid "Captcha error, please try again."
+msgstr ""
+
+#: includes/class-sliced-login-register.php:849
+msgid "An unknown error occurred. Please try again later."
+msgstr ""
+
+#: includes/sliced-invoices-client-area-activate.php:28
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: includes/sliced-invoices-client-area-activate.php:32
+#: public/templates/password_reset_form.php:9
+msgid "Pick a New Password"
+msgstr ""
+
+#: public/templates/client-area.php:42 public/templates/client-area.php:53
+#: public/templates/client-area.php:71 public/templates/client-area.php:92
+#: public/templates/client-area.php:103 public/templates/client-area.php:139
+#: public/templates/client-area.php:188 public/templates/client-area.php:207
+#: public/templates/client-area.php:219 public/templates/client-area.php:256
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: public/templates/client-area.php:74
+msgid "Sent"
+msgstr ""
+
+#: public/templates/client-area.php:76
+msgid "Accepted"
+msgstr ""
+
+#: public/templates/client-area.php:78
+msgid "Declined"
+msgstr ""
+
+#: public/templates/client-area.php:79 public/templates/client-area.php:194
+msgid "Cancelled"
+msgstr ""
+
+#: public/templates/client-area.php:95 public/templates/client-area.php:106
+#: public/templates/client-area.php:210 public/templates/client-area.php:222
+msgid "Total"
+msgstr ""
+
+#: public/templates/client-area.php:120 public/templates/client-area.php:236
+#: public/templates/client-area.php:237
+msgid "N/A"
+msgstr ""
+
+#: public/templates/client-area.php:191
+msgid "Paid"
+msgstr ""
+
+#: public/templates/client-area.php:192
+msgid "Unpaid"
+msgstr ""
+
+#: public/templates/client-area.php:193
+msgid "Overdue"
+msgstr ""
+
+#: public/templates/edit-profile.php:25
+msgid "Business/Client Name"
+msgstr ""
+
+#: public/templates/edit-profile.php:27
+msgid "The name of your business or your trading name."
+msgstr ""
+
+#: public/templates/edit-profile.php:39
+msgid "First Name"
+msgstr ""
+
+#: public/templates/edit-profile.php:44
+msgid "Last Name"
+msgstr ""
+
+#: public/templates/edit-profile.php:53
+msgid "E-mail *"
+msgstr ""
+
+#: public/templates/edit-profile.php:58
+msgid "Website"
+msgstr ""
+
+#: public/templates/edit-profile.php:69
+msgid "Address"
+msgstr ""
+
+#: public/templates/edit-profile.php:71
+msgid "Format the Address any way you like. HTML is allowed."
+msgstr ""
+
+#: public/templates/edit-profile.php:75
+msgid "Extra Info"
+msgstr ""
+
+#: public/templates/edit-profile.php:77
+msgid "Phone number, business number, VAT details etc. HTML is allowed."
+msgstr ""
+
+#: public/templates/edit-profile.php:84
+msgid "Update Details"
+msgstr ""
+
+#: public/templates/login.php:19
+msgid "Login failed, please try again."
+msgstr ""
+
+#: public/templates/login.php:29
+msgid "Username"
+msgstr ""
+
+#: public/templates/login.php:45
+msgid "Log In"
+msgstr ""
+
+#: public/templates/login_form.php:34
+#, php-format
+msgid ""
+"You have successfully registered to <strong>%s</strong>. We have emailed "
+"your password to the email address you entered."
+msgstr ""
+
+#: public/templates/password_lost_form.php:23
+msgid ""
+"Enter your email address and we'll send you a link you can use to pick a new "
+"password."
+msgstr ""
+
+#: public/templates/password_lost_form.php:39
+#: public/templates/password_reset_form.php:39
+msgid "Reset Password"
+msgstr ""
+
+#: public/templates/password_reset_form.php:25
+msgid "New password"
+msgstr ""
+
+#: public/templates/password_reset_form.php:29
+msgid "Repeat new password"
+msgstr ""
+
+#: public/templates/register_form.php:9 public/templates/register_form.php:52
+msgid "Register"
+msgstr ""
+
+#: public/templates/register_form.php:22
+msgid "Email"
+msgstr ""
+
+#: public/templates/register_form.php:27
+msgid "First name"
+msgstr ""
+
+#: public/templates/register_form.php:32
+msgid "Last name"
+msgstr ""
+
+#: public/templates/register_form.php:37
+msgid ""
+"Note: Your password will be generated automatically and emailed to the "
+"address you specify above."
+msgstr ""
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr ""
+
+#: updater/plugin-updater.php:91 updater/plugin-updater.php:115
+msgid "Enter the License Key for this extension"
+msgstr ""
+
+#: updater/plugin-updater.php:131
+#, php-format
+msgid "License: %s"
+msgstr ""
+
+#: updater/plugin-updater.php:139
+msgid "Deactivate License"
+msgstr ""
+
+#: updater/plugin-updater.php:140
+msgid "Activate License"
+msgstr ""
+
+#: updater/plugin-updater.php:342
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+
+#: updater/plugin-updater.php:359
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+
+#: updater/plugin-updater.php:372
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+
+#: updater/plugin-updater.php:384
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Client Area"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/client-area/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Creates a secure area for clients to view their invoices and quotes. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

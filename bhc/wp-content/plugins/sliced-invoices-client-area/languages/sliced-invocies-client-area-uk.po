@@ -1,0 +1,449 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Client Area\n"
+"POT-Creation-Date: 2016-07-11 09:52+1000\n"
+"PO-Revision-Date: 2017-06-02 00:13+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"X-Poedit-SearchPath-0: includes/class-edit-profile.php\n"
+"X-Poedit-SearchPath-1: includes/class-login-register.php\n"
+"X-Poedit-SearchPath-2: public/templates/client-area.php\n"
+"X-Poedit-SearchPath-3: public/templates/edit-profile.php\n"
+"X-Poedit-SearchPath-4: public/templates/login_form.php\n"
+"X-Poedit-SearchPath-5: public/templates/login.php\n"
+"X-Poedit-SearchPath-6: public/templates/password_lost_form.php\n"
+"X-Poedit-SearchPath-7: public/templates/password_reset_form.php\n"
+"X-Poedit-SearchPath-8: public/templates/register_form.php\n"
+"X-Poedit-SearchPath-9: sliced-invoices-client-area.php\n"
+
+#: includes/class-edit-profile.php:57
+msgid "The passwords you entered do not match."
+msgstr "Паролі не співпадають."
+
+#: includes/class-edit-profile.php:65
+msgid "Email address is not valid."
+msgstr "Адресу електронної пошти введено некоректно."
+
+#: includes/class-edit-profile.php:67
+msgid "Email address is already taken."
+msgstr "Така поштова скринька вже використовується."
+
+#: includes/class-edit-profile.php:80
+msgid "Business/Client Name must not be empty."
+msgstr "Назва організації або ім'я клієнта не може бути порожнє."
+
+#: includes/class-edit-profile.php:89
+msgid "Your client details were successfully updated."
+msgstr "Картку клієнта було успішно оновлено."
+
+#: includes/class-login-register.php:270 includes/class-login-register.php:306
+#: includes/class-login-register.php:336
+msgid "You are already signed in."
+msgstr "Ви вже зайшли."
+
+#: includes/class-login-register.php:272 includes/class-login-register.php:700
+msgid "Registering new users is currently not allowed."
+msgstr "Реєстрацию нових користувачів наразі заборонено."
+
+#: includes/class-login-register.php:355
+msgid "Invalid password reset link."
+msgstr "Посилання на відновлення паролю недійсне."
+
+#: includes/class-login-register.php:549
+msgid "Hello!"
+msgstr "Агов!"
+
+#: includes/class-login-register.php:550
+#, php-format
+msgid ""
+"You asked us to reset your password for your account using the email address "
+"%s."
+msgstr "Ви надіслали запит на відновлення паролю за електронною адресою %s."
+
+#: includes/class-login-register.php:551
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+"Якщо ви зробили це випадково, або не бажаєте змінювати пароль, просто "
+"проігноруйте цей повідомлення. Нічого страшного не відбудеться."
+
+#: includes/class-login-register.php:552
+msgid "To reset your password, visit the following address:"
+msgstr "Щоб відновити пароль, перейдіть за цим посиланням:"
+
+#: includes/class-login-register.php:554
+msgid "Thanks!"
+msgstr "Дуже вам дякуємо!"
+
+#: includes/class-login-register.php:673
+msgid "You do have an email address, right?"
+msgstr "Ви ж напевно маєте електронну поштову скриньку. Хіба ні?"
+
+#: includes/class-login-register.php:676
+msgid "You need to enter a password to login."
+msgstr "Для входу вам необхідно ввести пароль."
+
+#: includes/class-login-register.php:680
+msgid ""
+"We don't have any users with that email address. Maybe you used a different "
+"one when signing up?"
+msgstr ""
+"В нас немає жодного запису про користувача з такою поштовою скринькою. "
+"Можливо, ви вказали іншу адресу під час реєстрації?"
+
+#: includes/class-login-register.php:686
+#, php-format
+msgid ""
+"The password you entered wasn't quite right."
+msgstr ""
+"Введений пароль не підійшов. <a href='%s'>Чи ви часом його не забули</a>?"
+
+#: includes/class-login-register.php:694
+msgid "The email address you entered is not valid."
+msgstr "Те що ви ввели, не схоже на електронну поштову скриньку."
+
+#: includes/class-login-register.php:697
+msgid "An account exists with this email address."
+msgstr "Обліковий запис із такою електронною адресою існує."
+
+#: includes/class-login-register.php:703
+msgid "The Google reCAPTCHA check failed. Are you a robot?"
+msgstr ""
+"Ви неправильно ввели код Google reCAPTCHA. Ви глузуєте, або може ви робот?"
+
+#: includes/class-login-register.php:708
+msgid "You need to enter your email address to continue."
+msgstr "Щоб продовжити, вам треба ввести електронну поштову адресу."
+
+#: includes/class-login-register.php:712
+msgid "There are no users registered with this email address."
+msgstr "В нас немає користувачів із такою електронною адресою."
+
+#: includes/class-login-register.php:718
+msgid "The password reset link you used is not valid anymore."
+msgstr "Посилання для відновлення паролю, яким ви скористались, вже недійсне."
+
+#: includes/class-login-register.php:721
+msgid "The two passwords you entered don't match."
+msgstr "Паролі не співпадають."
+
+#: includes/class-login-register.php:724
+msgid "Sorry, we don't accept empty passwords."
+msgstr "Нажаль, ви не можете мати пустий пароль."
+
+#: includes/class-login-register.php:730
+msgid "An unknown error occurred. Please try again later."
+msgstr ""
+"Сталася невідома помилка. Напевно, вам варто спробувати ще раз трохи пізніше."
+
+#: public/templates/client-area.php:33
+msgid "Account Snapshot"
+msgstr ""
+
+#: public/templates/client-area.php:41
+msgid "awaiting response"
+msgstr "чекаємо на відповідь"
+
+#: public/templates/client-area.php:46
+msgid "Total Outstanding"
+msgstr ""
+
+#: public/templates/client-area.php:50
+msgid "awaiting payment"
+msgstr "очікуємо оплату"
+
+#: public/templates/client-area.php:66
+msgid "Sent"
+msgstr "Надіслано"
+
+#: public/templates/client-area.php:67
+msgid "Declined"
+msgstr "Відхилено"
+
+#: public/templates/client-area.php:68 public/templates/client-area.php:165
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#: public/templates/client-area.php:80 public/templates/client-area.php:91
+#: public/templates/client-area.php:176 public/templates/client-area.php:188
+msgid "Date"
+msgstr "Дата"
+
+#: public/templates/client-area.php:82 public/templates/client-area.php:93
+#: public/templates/client-area.php:179 public/templates/client-area.php:191
+msgid "Status"
+msgstr "Статус"
+
+#: public/templates/client-area.php:83 public/templates/client-area.php:94
+#: public/templates/client-area.php:180 public/templates/client-area.php:192
+msgid "Number"
+msgstr "Номер"
+
+#: public/templates/client-area.php:84 public/templates/client-area.php:95
+#: public/templates/client-area.php:181 public/templates/client-area.php:193
+msgid "Total"
+msgstr "Загалом"
+
+#: public/templates/client-area.php:162
+msgid "Paid"
+msgstr "Сплачено"
+
+#: public/templates/client-area.php:163
+msgid "Unpaid"
+msgstr "Не сплачено"
+
+#: public/templates/client-area.php:164
+msgid "Overdue"
+msgstr "Прострочено"
+
+#: public/templates/client-area.php:177 public/templates/client-area.php:189
+#, fuzzy
+msgid "Due"
+msgstr "Срок"
+
+#: public/templates/client-area.php:208
+msgid "N/A"
+msgstr "Н/Д"
+
+#: public/templates/edit-profile.php:25
+msgid "Business/Client Name"
+msgstr "Компанія/Клієнт"
+
+#: public/templates/edit-profile.php:27
+msgid "The name of your business or your trading name."
+msgstr "Назва фірми або торгова марка."
+
+#: public/templates/edit-profile.php:39
+msgid "First Name"
+msgstr "Ім'я"
+
+#: public/templates/edit-profile.php:44
+msgid "Last Name"
+msgstr "Прізвище"
+
+#: public/templates/edit-profile.php:53
+msgid "E-mail *"
+msgstr ""
+
+#: public/templates/edit-profile.php:58
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: public/templates/edit-profile.php:69
+msgid "Address"
+msgstr "Поштова адреса"
+
+#: public/templates/edit-profile.php:71
+msgid "Format the Address any way you like. HTML is allowed."
+msgstr ""
+"Будь-яка контактна інформація, на ваш розсуд. Можете використовувати HTML-"
+"теги."
+
+#: public/templates/edit-profile.php:75
+msgid "Extra Info"
+msgstr "Додаткова інформація"
+
+#: public/templates/edit-profile.php:77
+msgid "Phone number, business number, VAT details etc. HTML is allowed."
+msgstr ""
+"Контактні телефони, банківські реквізити, податкова інформація, тощо. Можете "
+"використовувати HTML-теги."
+
+#: public/templates/edit-profile.php:84
+msgid "Update Details"
+msgstr "Зберегти"
+
+#: public/templates/login.php:19
+msgid "Login failed, please try again."
+msgstr "Не вдалося увійти, спробуйте ще."
+
+#: public/templates/login.php:26 sliced-invoices-client-area.php:325
+msgid "Login"
+msgstr "Увійти"
+
+#: public/templates/login.php:29
+msgid "Username"
+msgstr "Логін"
+
+#: public/templates/login.php:33 public/templates/login_form.php:76
+msgid "Password"
+msgstr "Пароль"
+
+#: public/templates/login.php:38
+msgid "Remember Me"
+msgstr "Запам'ятати мене"
+
+#: public/templates/login.php:43
+msgid "Log In"
+msgstr "Увійти"
+
+#: public/templates/login_form.php:11 public/templates/login_form.php:57
+#: public/templates/login_form.php:80
+msgid "Sign In"
+msgstr "Вхід"
+
+#: public/templates/login_form.php:26
+msgid "You have signed out. Would you like to sign in again?"
+msgstr "Ви вийшли. Може хочете зайти знову?"
+
+#: public/templates/login_form.php:34
+#, php-format
+msgid ""
+"You have successfully registered to <strong>%s</strong>. We have emailed "
+"your password to the email address you entered."
+msgstr ""
+"Ви успішно зареєструвались у <strong>%s</strong>. Ми надіслали вам пароль за "
+"вказаною адресою."
+
+#: public/templates/login_form.php:43
+msgid "Check your email for a link to reset your password."
+msgstr ""
+"Перевірте вашу поштову скриньку. На неї має прийти повідомлення із "
+"посиланням, за яким ви можете змінити ваш пароль."
+
+#: public/templates/login_form.php:49
+msgid "Your password has been changed. You can sign in now."
+msgstr "Пароль було успішно змінено. Ви можете скористатись ним прямо зараз."
+
+#: public/templates/login_form.php:56 public/templates/login_form.php:72
+#: public/templates/password_lost_form.php:31
+msgid "Email or Username"
+msgstr "Email або логін"
+
+#: public/templates/login_form.php:64
+msgid "Forgot your password?"
+msgstr "Забули пароль?"
+
+#: public/templates/password_lost_form.php:9 sliced-invoices-client-area.php:43
+msgid "Forgot Your Password?"
+msgstr "Ви забули пароль?"
+
+#: public/templates/password_lost_form.php:23
+msgid ""
+"Enter your email address and we'll send you a link you can use to pick a new "
+"password."
+msgstr ""
+"Введіть електронну адресу, і ми надішлемо вам інструкції щодо зміни пароля."
+
+#: public/templates/password_lost_form.php:37
+#: public/templates/password_reset_form.php:37
+msgid "Reset Password"
+msgstr "Змінити пароль"
+
+#: public/templates/password_reset_form.php:9
+#: sliced-invoices-client-area.php:47
+msgid "Pick a New Password"
+msgstr "Оберіть новий пароль"
+
+#: public/templates/password_reset_form.php:25
+msgid "New password"
+msgstr "Новий пароль"
+
+#: public/templates/password_reset_form.php:29
+msgid "Repeat new password"
+msgstr "Новий пароль, ще раз"
+
+#: public/templates/register_form.php:9 public/templates/register_form.php:50
+msgid "Register"
+msgstr "Зареєструватись"
+
+#: public/templates/register_form.php:22
+msgid "Email"
+msgstr ""
+
+#: public/templates/register_form.php:27
+msgid "First name"
+msgstr "Ім'я"
+
+#: public/templates/register_form.php:32
+msgid "Last name"
+msgstr "Прізвище"
+
+#: public/templates/register_form.php:37
+msgid ""
+"Note: Your password will be generated automatically and emailed to the "
+"address you specify above."
+msgstr ""
+"Увага: Ваш пароль буде автоматично згенеровано і надіслано за вказаною "
+"адресою."
+
+#: sliced-invoices-client-area.php:35
+msgid "Client Area"
+msgstr "Особистий кабінет"
+
+#: sliced-invoices-client-area.php:51 sliced-invoices-client-area.php:265
+#: sliced-invoices-client-area.php:277 sliced-invoices-client-area.php:315
+#: sliced-invoices-client-area.php:351
+msgid "Edit Profile"
+msgstr "Змінити персональні дані"
+
+#: sliced-invoices-client-area.php:155
+msgid "Settings"
+msgstr "Налаштування"
+
+#: sliced-invoices-client-area.php:242
+msgid "Client Area Page"
+msgstr "Сторінка особистого кабінету"
+
+#: sliced-invoices-client-area.php:243
+msgid ""
+"Choose the page to use as the Client Area. Must have the [sliced-client-"
+"area] shortcode on this page."
+msgstr ""
+"Оберіть сторінку для використання у якості Особистого кабінету. Вона має "
+"містити цей шорткод: [sliced-client-area]."
+
+#: sliced-invoices-client-area.php:250
+msgid "Edit Profile Page"
+msgstr "Змінити сторінку персональних даних"
+
+#: sliced-invoices-client-area.php:251
+msgid ""
+"Choose the page to use as the Edit Profile page for your clients. Must have "
+"the [sliced-edit-profile] shortcode on this page."
+msgstr ""
+"Оберіть сторінку для використання клієнтами для зміни персональних даних. "
+"Must have the [sliced-edit-profile] shortcode on this page."
+
+#: sliced-invoices-client-area.php:258
+msgid "Quote & Invoice Links"
+msgstr "Посилання на Кошториси та Рахунки"
+
+#: sliced-invoices-client-area.php:259
+msgid "Choose which links to display on individual Quotes & Invoices"
+msgstr "Оберіть, які посилання виводити на сторінці Кошторисів та Рахунків"
+
+#: sliced-invoices-client-area.php:264 sliced-invoices-client-area.php:276
+#: sliced-invoices-client-area.php:311 sliced-invoices-client-area.php:347
+msgid "My Account"
+msgstr "Мій обліковий запис"
+
+#: sliced-invoices-client-area.php:266 sliced-invoices-client-area.php:278
+#: sliced-invoices-client-area.php:319 sliced-invoices-client-area.php:355
+msgid "Logout"
+msgstr "Вийти"
+
+#: sliced-invoices-client-area.php:270
+msgid "Client Area Links"
+msgstr "Посилання особистого кабінету"
+
+#: sliced-invoices-client-area.php:271
+msgid ""
+"Choose which links to display within the Client Area and Edit Profile pages"
+msgstr ""
+"Оберіть, які посилання виводити всередині особистого кабінету та на сторінці "
+"зміни персональних даних"
+
+#: sliced-invoices-client-area.php:324
+msgid "Home"
+msgstr "На початок"

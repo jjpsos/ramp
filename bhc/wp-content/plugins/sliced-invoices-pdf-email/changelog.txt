@@ -1,0 +1,183 @@
+1.7.1
+=================================
+* NEW: PHP 8 compatibility.
+* FIX: display issue with admin notices.
+
+1.7.0
+=================================
+* NEW: improved http request / cURL handling.
+* NEW: add PDF attachments to "quote accepted" emails.
+* FIX: PHP notice.
+* UPDATE: add filter `sliced_pdf_remove_pdfs_after_send` for optionally removing PDFs from your uploads folder after they've been sent.
+* UPDATE: updated SlicedPDF library for PHP 7.4 compatibility.
+* UPDATE: updated German translations (thanks to Thorsten Wollenhöfer).
+
+1.6.2
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: Italian translation (thanks to Alessio Simone)
+* UPDATE: updated German and German formal translations
+* UPDATE: updated .pot file for translations
+
+1.6.1
+=================================
+* NEW: German formal translation (thanks to Thorsten Wollenhöfer)
+* NEW: Hungarian translation
+* FIX: PHP notice in PHP >= 7.1
+
+1.6.0
+=================================
+* NEW: added "page font size" setting
+* NEW: added filter 'sliced_pdf_custom_css'
+* NEW: added low memory warning (admin notice)
+* NEW: French translation (thanks to WebMat - webmat.pro)
+* NEW: German translation (thanks to Reinhard Frenzel)
+* FIX: various PHP notices
+* UPDATE: changed the way our PDF generation library is loaded (only load it when needed, reducing memory usage when it's not)
+* UPDATE: some code refactoring
+* UPDATE: updated .pot file for translations
+
+1.5.3
+=================================
+* FIX: issue with SVG logos in PHP 7+
+* UPDATE: minor changes to settings page
+* UPDATE: some code refactoring
+
+1.5.2
+=================================
+* UPDATE: Change default paper size to "Letter"
+* UPDATE: Workaround for WordPress font upload bug (i.e. the "Sorry, this file type is not permitted for security reasons" error when trying to upload .ttf files -- see https://core.trac.wordpress.org/ticket/40175)
+* FIX: PHP notice
+
+1.5.1
+=================================
+* NEW: add new action 'sliced_pdf_init'
+* UPDATE: various performance enhancements in PDF generation library
+* FIX: PHP notice
+
+1.5.0
+=================================
+* NEW: Admin notices (intuitively alerts you if there are potential issues needing your attention)
+* NEW: Spanish translation (thanks to Lolo Marchal)
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva)
+* UPDATE: improved fault tolerance in CSS Manager class
+
+1.4.5
+=================================
+* FIX: issue with emailed PDFs not formatted correctly when sending multiple
+* UPDATE: update updater, for the last time
+
+1.4.4
+=================================
+* UPDATE: rename all mPDF constants and global functions to avoid conflicts with other WordPress plugins that also bundle mPDF 
+* UPDATE: update .pot file for translations
+
+1.4.3
+=================================
+* FIX: watermark translation issue
+* UPDATE: rename all mPDF classes to avoid conflicts with other WordPress plugins that also bundle mPDF (allows us to continue using our own fork)
+
+1.4.2
+=================================
+* UPDATE: replace old-style (PHP 4/5) constructors with new-style (PHP 5/7) ones.
+
+1.4.1
+=================================
+* FIX: PHP notice
+* UPDATE: update updater, again
+
+1.4.0
+=================================
+* NEW: add filter 'sliced_pdf_html'
+* FIX: apply PDF Generation Mode setting to Sliced_Emails class
+* FIX: add support for servers where mbregex is disabled
+* FIX: PHP strict standards fix
+* FIX: show error messages only when in debug mode
+* UPDATE: update updater
+* UPDATE: update .pot file for translations
+
+1.3.1
+=================================
+* FIX: issue where default page size not set
+
+1.3.0
+=================================
+* UPDATE: Improved PDF generation method - approx. 98% faster
+* NEW: add settings for changing PDF page size and orientation
+
+1.2.5
+=================================
+* UPDATE: Improved unicode font support, reduce package size, reduce memory usage
+* FIX: Minor updater fix
+
+1.2.4
+=================================
+* NEW: Add support for Chinese, Japanese, and Korean characters
+
+1.2.3
+=================================
+* NEW: Create .po and .mo files ready for translation
+
+1.2.2
+=================================
+* FIX: Undefined index notices within updater
+
+1.2.1
+=================================
+* FIX: Add extra checks to stop attempts at attaching PDF when accepting a quote
+
+1.2.0
+=================================
+* NEW: Add licenses and one-click updates
+
+1.1.2
+=================================
+* UPDATE: Minor styling updates
+
+1.1.1
+=================================
+* FIX: Fix errors with PHP 7 and array_push
+
+1.1.0
+=================================
+* UPDATE: Remove old email fields
+
+1.0.9
+=================================
+* UPDATE: Major notifications update
+
+1.0.8
+=================================
+* UPDATE: Add option to allow SSL Verify to be set
+
+1.0.7
+=================================
+* UPDATE: Add the %total% and %client_email% wildcards for emails
+
+1.0.6
+=================================
+* FIX: Add $mpdf->setAutoBottomMargin = 'stretch' option to allow footer to stretch with long terms and conditions
+
+1.0.5
+=================================
+* UPDATE: Add better notification for Accept Quotes option
+
+1.0.4
+=================================
+* FIX: Add $mpdf->setAutoTopMargin = 'stretch' option to allow header to stretch with logo
+
+1.0.3
+=================================
+* FIX: Stop emails adding slashes to quotation marks etc. (stripslashes)
+
+1.0.2
+=================================
+* UPDATE: Move actions column to main plugin. Change action to filter for showing actions buttons.
+
+1.0.1
+=================================
+* FIX: Bug with headers already sent error in emails
+
+1.0.0
+=================================
+* Released

@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Translate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-12 20:38+0000\n"
+"PO-Revision-Date: 2017-01-16 22:06+0000\n"
+"Last-Translator: Lolo Marchal <info@chipweb.es>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: sliced-invoices-translate.php:229
+msgid "Declined"
+msgstr "Rechazado"
+
+#: sliced-invoices-translate.php:239
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: sliced-invoices-translate.php:249
+msgid "Paid"
+msgstr "Pagado"
+
+#: sliced-invoices-translate.php:259
+msgid "Unpaid"
+msgstr "No Pagado"
+
+#: sliced-invoices-translate.php:269
+msgid "Overdue"
+msgstr "Vencido"
+
+#: sliced-invoices-translate.php:279
+msgid "Draft"
+msgstr "Borrador"
+
+#: sliced-invoices-translate.php:290
+msgid "To:"
+msgstr "A:"
+
+#: sliced-invoices-translate.php:300
+msgid "From:"
+msgstr "Desde:"
+
+#: sliced-invoices-translate.php:310
+msgid "Total Due"
+msgstr "Total Vencido"
+
+#: sliced-invoices-translate.php:320
+msgid "Due Date"
+msgstr "Fecha de Vencimiento"
+
+#: sliced-invoices-translate.php:330
+msgid "Valid Until"
+msgstr "Válido Hasta..."
+
+#: sliced-invoices-translate.php:340
+msgid "Order Number"
+msgstr "Pedido Número"
+
+#: sliced-invoices-translate.php:350
+msgid "Hrs/Qty"
+msgstr "Horas/Cantidad"
+
+#: sliced-invoices-translate.php:360
+msgid "Service"
+msgstr "Servicio"
+
+#: sliced-invoices-translate.php:370
+msgid "Rate/Price"
+msgstr "Tarifa/Precio"
+
+#: sliced-invoices-translate.php:380
+msgid "Adjust"
+msgstr "Ajuste"
+
+#: sliced-invoices-translate.php:390
+msgid "Sub Total"
+msgstr "Subtotal"
+
+#: sliced-invoices-translate.php:400
+msgid "Total"
+msgstr "Total"
+
+#: sliced-invoices-translate.php:410
+msgid "Invoice Number"
+msgstr "Factura Número"
+
+#: sliced-invoices-translate.php:420
+msgid "Invoice Date"
+msgstr "Fecha de Factura"
+
+#: sliced-invoices-translate.php:430
+msgid "Quote Amount"
+msgstr "Importe de Presupuesto"
+
+#: sliced-invoices-translate.php:440
+msgid "Quote Number"
+msgstr "Presupuesto Número"
+
+#: sliced-invoices-translate.php:450
+msgid "Quote Date"
+msgstr "Fecha de Presupuesto"
+
+#: sliced-invoices-translate.php:460
+msgid "Accept Quote"
+msgstr "Aceptar Presupuesto"
+
+#: sliced-invoices-translate.php:470
+msgid "Decline Quote"
+msgstr "Recjazar Presupuesto"
+
+#: sliced-invoices-translate.php:480
+msgid "Reason for declining"
+msgstr "Razón del Rechazo"
+
+#: sliced-invoices-translate.php:490
+msgid "Pay This Invoice"
+msgstr "Pagar esta Factura"
+
+#: sliced-invoices-translate.php:500
+msgid "Amount Payable"
+msgstr "Importe a Pagar"
+
+#: sliced-invoices-translate.php:510
+msgid "Payment Method"
+msgstr "Método de Pago"
+
+#: sliced-invoices-translate.php:520
+msgid "Pay Now"
+msgstr "Pagar Ahora"
+
+#: sliced-invoices-translate.php:530
+msgid "Add a comment"
+msgstr "Añadir un comentario"
+
+#. Name of the plugin
+msgid "Sliced Invoices Translate"
+msgstr "Sliced Invoices Traducción Fácil"
+
+#. Description of the plugin
+msgid ""
+"Translate text on invoices and quotes without touching any code. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+"Traduce el texto en facturas y presupuestos sin tocar ningún código. "
+"Requisito: El plugin Sliced Invoices."
+
+#. URI of the plugin
+msgid "https://slicedinvoices.com/extensions/easy-translate/"
+msgstr "https://slicedinvoices.com/extensions/easy-translate/"
+
+#. Author of the plugin
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Author URI of the plugin
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"
+
+#: sliced-invoices-translate.php:219
+msgid "Sent"
+msgstr "Enviado"

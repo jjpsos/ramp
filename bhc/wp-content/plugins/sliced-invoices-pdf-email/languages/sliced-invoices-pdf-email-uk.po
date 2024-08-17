@@ -1,0 +1,509 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Sliced Invoices PDF Email\n"
+"POT-Creation-Date: 2017-07-15 21:44+0300\n"
+"PO-Revision-Date: 2017-07-15 22:14+0300\n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-pdf-email.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/pdf/class-sliced-pdf.php:76
+msgid "PDF"
+msgstr ""
+
+#: includes/pdf/class-sliced-pdf.php:139
+msgid "Paid"
+msgstr "Сплачно"
+
+#: includes/pdf/class-sliced-pdf.php:147
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#: sliced-invoices-pdf-email.php:116
+msgid "Settings"
+msgstr "Налаштування"
+
+#: sliced-invoices-pdf-email.php:176
+msgid "Page Size"
+msgstr "Розмір аркуша"
+
+#: sliced-invoices-pdf-email.php:177
+msgid "Select paper size for generated PDFs"
+msgstr "Оберіть розмір аркуша для PDF-документів"
+
+#: sliced-invoices-pdf-email.php:182
+msgid "Letter"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:183
+msgid "Legal"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:184
+msgid "Ledger"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:185
+msgid "Tabloid"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:186
+msgid "Executive"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:187
+msgid "Folio"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:188
+msgid "B"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:189
+msgid "A"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:190
+msgid "Demy"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:191
+msgid "Royal"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:192
+msgid "4A0"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:193
+msgid "2A0"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:194
+msgid "A0"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:195
+msgid "A1"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:196
+msgid "A2"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:197
+msgid "A3"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:198
+msgid "A4"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:199
+msgid "A5"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:200
+msgid "A6"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:201
+msgid "A7"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:202
+msgid "A8"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:203
+msgid "A9"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:204
+msgid "A10"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:205
+msgid "B0"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:206
+msgid "B1"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:207
+msgid "B2"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:208
+msgid "B3"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:209
+msgid "B4"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:210
+msgid "B5"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:211
+msgid "B6"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:212
+msgid "B7"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:213
+msgid "B8"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:214
+msgid "B9"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:215
+msgid "B10"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:216
+msgid "C0"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:217
+msgid "C1"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:218
+msgid "C2"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:219
+msgid "C3"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:220
+msgid "C4"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:221
+msgid "C5"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:222
+msgid "C6"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:223
+msgid "C7"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:224
+msgid "C8"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:225
+msgid "C9"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:226
+msgid "C10"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:227
+msgid "RA0"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:228
+msgid "RA1"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:229
+msgid "RA2"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:230
+msgid "RA3"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:231
+msgid "RA4"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:232
+msgid "SRA0"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:233
+msgid "SRA1"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:234
+msgid "SRA2"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:235
+msgid "SRA3"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:236
+msgid "SRA4"
+msgstr ""
+
+#: sliced-invoices-pdf-email.php:240
+msgid "Page Orientation"
+msgstr "Орієнтація"
+
+#: sliced-invoices-pdf-email.php:245
+msgid "Portrait"
+msgstr "Горизонтальна"
+
+#: sliced-invoices-pdf-email.php:246
+msgid "Landscape"
+msgstr "Вертикальна"
+
+#: sliced-invoices-pdf-email.php:250
+msgid "Add Unicode Font (.ttf)"
+msgstr "Додати шрифт Unicode (.ttf)"
+
+#: sliced-invoices-pdf-email.php:251
+msgid ""
+"If you need to print PDFs in languages requiring unicode characters "
+"(Japanese, Chinese, Korean, etc.), you may upload the required font here. "
+"<br>(For a good source of international language fonts, see <a href="
+"\"https://www.google.com/get/noto/\" target=\"_blank\">Google Noto Fonts</a>)"
+msgstr ""
+"Якщо вам потрібно друкувати PDF-документи мовами, які вимагають символи "
+"Юнікод (японська, китайська, корейська, тощо), ви можете завантажити "
+"відповідний шрифт. <br>(В якості гарного прикладу зверніть увагу на шрифт <a "
+"href=\"https://www.google.com/get/noto/\" target=\"_blank\">Google Noto "
+"Fonts</a>)"
+
+#: sliced-invoices-pdf-email.php:257
+msgid "Add Extended Unicode Font (.ttf)"
+msgstr "Додати розширений Юнікод-шрифт (.ttf)"
+
+#: sliced-invoices-pdf-email.php:258
+msgid ""
+"If your unicode font requires a second, extended font file, you may upload "
+"it here."
+msgstr "Якщо шрифт вимагає додатковий файл, ви можете завантажити його тут."
+
+#: sliced-invoices-pdf-email.php:264
+msgid "PDF Generation Mode"
+msgstr "Режим генерації PDF-документа"
+
+#: sliced-invoices-pdf-email.php:265
+msgid "Try \"compatibility\" mode if you encounter issues with creating PDFs."
+msgstr ""
+"Спробуйте режим сумісності, якщо виникають проблеми з генерациєю PDF-"
+"документів."
+
+#: sliced-invoices-pdf-email.php:270
+msgid "Default"
+msgstr "Звичайний"
+
+#: sliced-invoices-pdf-email.php:271
+msgid "Compatibility"
+msgstr "Режим сумісності"
+
+#: sliced-invoices-pdf-email.php:290
+msgid "Body Background"
+msgstr "Тло документу"
+
+#: sliced-invoices-pdf-email.php:297
+msgid "Header Background"
+msgstr "Тло шапки документу"
+
+#: sliced-invoices-pdf-email.php:304
+msgid "Content Background"
+msgstr "Тло вмісту документу"
+
+#: sliced-invoices-pdf-email.php:311
+msgid "Content Text Color"
+msgstr "Колір тексту"
+
+#: sliced-invoices-pdf-email.php:318
+msgid "Footer Background"
+msgstr "Тло \"підвалу\""
+
+#: sliced-invoices-pdf-email.php:325
+msgid "Footer Text Color"
+msgstr "Колір тексту \"підвалу\""
+
+#: sliced-invoices-pdf-email.php:332
+msgid "Footer Text"
+msgstr "Текст \"підвалу\""
+
+#: sliced-invoices-pdf-email.php:364 sliced-invoices-pdf-email.php:385
+msgid "Custom PDF CSS"
+msgstr "Власні стилі PDF-документу"
+
+#: sliced-invoices-pdf-email.php:365 sliced-invoices-pdf-email.php:386
+msgid ""
+"Add custom CSS to the PDF. Due to the nature of printing PDF's (and it's "
+"limited support of CSS), occasionally you may need to add extra styles to "
+"get the PDF to look right."
+msgstr ""
+"Додайте власні CSS-стилі до PDF-документу. Завдяки природі друку формату PDF "
+"(а також обмеженній підтрімці CSS), можливо, вам буде необхідно додати "
+"більше стилів, щоб документ виглядав так як треба."
+
+#: sliced-invoices-pdf-email.php:407
+msgid "SSL Verify"
+msgstr "Верифікація SSL"
+
+#: sliced-invoices-pdf-email.php:408
+msgid ""
+"Set this to False if there are issues printing PDF's. It may resolve the "
+"issue."
+msgstr "Відключіть, якщо виникають складнощі з друком PDF-документів."
+
+#: sliced-invoices-pdf-email.php:490
+#, php-format
+msgid ""
+"Sliced Invoices PDF Extension has detected 'mbstring' is not enabled on your "
+"server.  Mbstring is required and must be enabled for PDF functionality to "
+"work properly.  For further information, <a href=\"%s\">see here</a>."
+msgstr ""
+"Розширення PDF звітує про те, що 'mbstring' не підтримується вашим сервером. "
+"Mbstring необхидний задля коректної роботи алгоритму генерації PDF-"
+"документів. Щоб дізнатись більше, <a href=\"%s\">завітайте сюди</a>."
+
+#: sliced-invoices-pdf-email.php:503 updater/plugin-updater.php:343
+#: updater/plugin-updater.php:359 updater/plugin-updater.php:382
+msgid "Dismiss"
+msgstr "Скасувати"
+
+#: sliced-invoices-pdf-email.php:504
+#, php-format
+msgid ""
+"Hey there, we noticed you are using WP Super Cache, which is great plugin... "
+"However, certain settings in WP Super Cache can potentially conflict with "
+"your Sliced Invoices PDF Extension.  Please be sure to <a href=\"%s\">read "
+"this page</a> to make sure everything keeps running smoothly. --<em>Your "
+"friends at Sliced Invoices</em>"
+msgstr ""
+"Друже, ми бачимо, що ви використовуєте плагін WP Super Cache, котрий, "
+"звичайно ж, є чудовим рішенням… Проте, деякі налаштування цього плагіну "
+"можуть негативно впливати на роботу розширення PDF. Радимо вам ознайомитись "
+"з цією <a href=\"%s\">сторінкою</a>, щоб переконатись, що все працює "
+"належним чином. — <em>Ваші друзі з команди Sliced Invoices</em>"
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Нова версія плагіну %1$s вже доступна. %2$sДізнатись більше про версію %3$s"
+"%4$s."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Нова версія плагіну %1$s вже доступна. %2$sДізнатись більше про версію %3$s "
+"%4$s або %5$sоновити зараз%6$s."
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+"У вас недостатньо повноважень для встановлення та/або оновлення плагінів"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Помилка"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Введіть ліцензійний ключ"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Ключ: %s"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Деактивувати ліцензію"
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Активувати ліцензію"
+
+#: updater/plugin-updater.php:344
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"Не знайдено ліцензійній ключ. Не забудьте ввести ключ ліцензії на <a href="
+"\"%s\">відповідній сторінці</a>."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"Термін дії вашої ліцензії %s закінчився. Будь ласка, <a href=\"%s\">поновіть "
+"ліцензію</a> щоб отримувати подальші оновлення та технічну підтримку."
+
+#: updater/plugin-updater.php:371
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"Вашу ліцензію до %s було призупинено. Будь ласка, <a href=\"%s\">зверніться "
+"до нас</a> по допомогу."
+
+#: updater/plugin-updater.php:383
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"Ваша ліцензія %s не активна. Активуйте ключ ліцензії на відповідній <a href="
+"\"%s\">сторінці</a>, шоб отримувати оновлення та технічну підтримку."
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices PDF Email"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/pdf-email/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create PDF invoices and email them direct to clients. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+"Створюйте рахунки в форматі PDF, та надсилайте їх своїм клієнтам. Для роботи "
+"необхідно мати встановлений та активований плагін Sliced Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

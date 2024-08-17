@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices PDF Email\n"
+"POT-Creation-Date: 2016-07-11 09:59+1000\n"
+"PO-Revision-Date: 2019-03-03 21:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/pdf/class-sliced-pdf.php:76
+msgid "PDF"
+msgstr "PDF"
+
+#: includes/pdf/class-sliced-pdf.php:132
+msgid "Paid"
+msgstr "Fizetve"
+
+#: includes/pdf/class-sliced-pdf.php:140
+msgid "Cancelled"
+msgstr "Lemondott"
+
+#: sliced-invoices-pdf-email.php:112
+msgid "Settings"
+msgstr "BEállítások"
+
+#: sliced-invoices-pdf-email.php:168
+msgid "Body Background"
+msgstr "Szövegtörzs háttere"
+
+#: sliced-invoices-pdf-email.php:175
+msgid "Header Background"
+msgstr "Fejléc háttere"
+
+#: sliced-invoices-pdf-email.php:182
+msgid "Content Background"
+msgstr "Tartalom Háttere"
+
+#: sliced-invoices-pdf-email.php:189
+msgid "Content Text Color"
+msgstr "Tartalom szöveg színe"
+
+#: sliced-invoices-pdf-email.php:196
+msgid "Footer Background"
+msgstr "Lábléc háttere"
+
+#: sliced-invoices-pdf-email.php:203
+msgid "Footer Text Color"
+msgstr "Lábléc szöveg színe"
+
+#: sliced-invoices-pdf-email.php:210
+msgid "Footer Text"
+msgstr "Lábléc szöveg"
+
+#: sliced-invoices-pdf-email.php:242 sliced-invoices-pdf-email.php:263
+msgid "Custom PDF CSS"
+msgstr "Egyéni CSS"
+
+#: sliced-invoices-pdf-email.php:243 sliced-invoices-pdf-email.php:264
+msgid ""
+"Add custom CSS to the PDF. Due to the nature of printing PDF's (and it's "
+"limited support of CSS), occasionally you may need to add extra styles to "
+"get the PDF to look right."
+msgstr ""
+"Adj hozzá saját, egyedi CSS-t a PDF-hez. A PDF fájlok korlátozottan "
+"támogatják a CSS-t így elképzelhető hogy szükség lesz extra “styles” "
+"mezőkre, hogy a kívánt kinézetet elérd."
+
+#: sliced-invoices-pdf-email.php:285
+msgid "SSL Verify"
+msgstr "SSL hitelesítés"
+
+#: sliced-invoices-pdf-email.php:286
+msgid ""
+"Set this to False if there are issues printing PDF's. It may resolve the "
+"issue."
+msgstr ""
+"Állítsd “False” értékre ha problémád van a PDF nyomtatásával. Ez "
+"megoldhatja a problémát."
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Új verzió elérhető ebből: %1$s  <a target=“_blank” class=“thickbox” "
+"href=“%2$s”>Nézd meg a részleteket %3$s </a>."
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Új verzió elérhető ebből: %1$s  <a target=“_blank” class=“thickbox” "
+"href=“%2$s”>Nézd meg a részleteket %3$s </a> vagy <a "
+"href=“%4$s”>frissítsd most</a>."
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr "Nincs jogosultságod a plugin frissítés telepítéséhez."
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr "Hiba!"
+
+#: updater/plugin-updater.php:70
+msgid "Enter the License Key for this extension"
+msgstr "Add meg a licence kulcsod ehhez a kiegészítőhöz"

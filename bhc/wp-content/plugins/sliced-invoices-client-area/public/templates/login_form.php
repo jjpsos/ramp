@@ -1,0 +1,103 @@
+<?php if ( true ) : ?>
+
+<div class="sliced client login">
+
+    <div class="row sliced-upper">
+
+        <div class="col-sm-12 sliced-login">
+
+			<div class="login-form-container">
+				<?php if ( $attributes['show_title'] ) : ?>
+					<h2><?php echo Sliced_Client_Area::$translate['client-login-submit']; ?></h2>
+				<?php endif; ?>
+
+				<!-- Show errors if there are any -->
+				<?php if ( count( $attributes['errors'] ) > 0 ) : ?>
+					<?php foreach ( $attributes['errors'] as $error ) : ?>
+						<p class="login-error">
+							<?php echo "Mot de passe incorrect"; ?>
+						</p>
+					<?php endforeach; ?>
+				<?php endif; ?>
+				
+				<!-- Show logged out message if user just logged out -->
+				<?php if ( $attributes['logged_out'] ) : ?>
+					<p class="login-info">
+						<?php echo Sliced_Client_Area::$translate['client-logout-message']; ?>
+					</p>
+				<?php endif; ?>
+
+				<?php if ( $attributes['registered'] ) : ?>
+					<p class="login-info">
+						<?php
+							printf(
+								__( 'You have successfully registered to <strong>%s</strong>. We have emailed your password to the email address you entered.', 'sliced-invoices-client-area' ),
+								get_bloginfo( 'name' )
+							);
+						?>
+					</p>
+				<?php endif; ?>
+
+				<?php if ( $attributes['lost_password_sent'] ) : ?>
+					<p class="login-info">
+						<?php echo Sliced_Client_Area::$translate['client-login-password-reset']; ?>
+					</p>
+				<?php endif; ?>
+
+				<?php if ( $attributes['password_updated'] ) : ?>
+					<p class="login-info">
+						<?php echo Sliced_Client_Area::$translate['client-login-password-changed']; ?>
+					</p>
+				<?php endif; ?>
+				
+				<form name="loginform" id="loginform" action="<?php echo site_url( '/wp-login.php' ); ?>" method="post">
+					
+					<p class="login-username">
+						<label for="user_login"><?php echo Sliced_Client_Area::$translate['client-login-user']; ?></label>
+						<input type="text" name="log" id="user_login" class="input" value="" size="20">
+					</p>
+					<p class="login-password">
+						<label for="user_pass"><?php echo Sliced_Client_Area::$translate['client-login-password']; ?></label>
+						<input type="password" name="pwd" id="user_pass" class="input" value="" size="20">
+					</p>
+					
+					<?php do_action( 'login_form' ); ?>
+					
+					<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <?php echo Sliced_Client_Area::$translate['client-login-remember']; ?></label></p>
+					<p class="login-submit">
+						<input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="<?php echo "Login"; ?>">
+						<input type="hidden" name="redirect_to" value="<?php echo $attributes['redirect']; ?>">
+					</p>
+					
+				</form>
+				
+				<?php do_action( 'login_footer' ); ?>
+
+
+			</div>
+			<?php else : ?>
+				<div class="login-form-container">
+					<form method="post" action="<?php echo wp_login_url(); ?>">
+						<p class="login-username">
+							<label for="user_login"><?php echo Sliced_Client_Area::$translate['client-login-user']; ?></label>
+							<input type="text" name="log" id="user_login">
+						</p>
+						<p class="login-password">
+							<label for="user_pass"><?php echo Sliced_Client_Area::$translate['client-login-password']; ?></label>
+							<input type="password" name="pwd" id="user_pass">
+						</p>
+						
+						<?php do_action( 'login_form' ); ?>
+						
+						<p class="login-submit">
+							<input type="submit" value="<?php echo Sliced_Client_Area::$translate['client-login-submit']; ?>">
+						</p>
+					</form>
+				</div>
+			<?php endif; ?>
+
+        </div>
+        
+    </div>
+
+</div>
