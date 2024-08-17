@@ -26,6 +26,7 @@ bella/
 dev/app/config/config.php
 bhc/index.php
 bhc/wp-config*
+bhc/wp-config.php-safe
 bhc/tjc-content
 bhc/wp-admin
 bhc/wp-includes
