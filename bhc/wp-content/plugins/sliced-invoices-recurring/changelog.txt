@@ -1,0 +1,144 @@
+2.5.0
+=================================
+* UPDATE: added compatibility with PHP 8.0.
+* UPDATE: updated .pot file for translations.
+* UPDATE: updated Spanish translation (thanks to Lolo Marchal).
+
+2.4.9
+=================================
+* FIX: escaping issue.
+
+2.4.8
+=================================
+* FIX: display issue with admin notices.
+* FIX: PHP warning.
+
+2.4.7
+=================================
+* FIX: PHP notice.
+
+2.4.6
+=================================
+* NEW: German translation (thanks to Thorsten Wollenhöfer).
+* FIX: "Draft until X" displayed date may be wrong due to timezone offset.
+* FIX: make sure next invoice date is not thrown off by timezone offsets.
+* FIX: clean up any false "missed scheduled" notices due to Sliced Invoices < 3.8.7 issue.
+
+2.4.5
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: Italian translation (thanks to Alessio Simone).
+* FIX: php warning.
+* UPDATE: updated .pot file for translations.
+
+2.4.4
+=================================
+* FIX: fatal error deactivating Recurring Invoices if Sliced Invoices (core plugin) was deactivated first.
+
+2.4.3
+=================================
+* FIX: error when WP time zone set to a "manual offset" UTC+X, where X is any positive offset. (WordPress doesn't include the '+' in the offset string).
+* FIX: issue where newly-generated invoices were not searchable by their invoice numbers.
+* UPDATE: various changes to the "edit recurring" functionality, refactoring.
+* UPDATE: change some text labels to be less confusing.
+* UPDATE: update .pot file for translations.
+
+2.4.2
+=================================
+* FIX: error when WP time zone set to "UTC+0".
+
+2.4.1
+=================================
+* FIX: issue where the next draft invoice says "email sent (x) days ago" immediately upon creation.  (It wasn't actually sent -- just inheriting the previous email's sent date when it shouldn't).
+
+2.4.0
+=================================
+* NEW: text labels on the invoices listing page -- shows each invoice's # in the series, also indicates which invoice is the next draft and when it will be sent.
+* UPDATE: future invoices in the series will have the status set as "draft" (previously they were set as "unpaid", which was confusing).
+* UPDATE: various other text changes to make the settings easier to understand.
+* UPDATE: update .pot file for translations.
+
+2.3.1
+=================================
+* FIX: issue with payment data being duplicated from parent invoice.
+* FIX: issue with "invoice was created" message not added to "Invoice History" box.
+
+2.3.0
+=================================
+* NEW: Add option to delay future invoice number assignment until scheduled invoice date (may be helpful for certain EU countries).
+* NEW: Admin notices (intuitively alerts you if there are potential issues needing your attention).
+* NEW: French translation (thanks to Web Mat).
+* NEW: Spanish translation (thanks to Lolo Marchal).
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva).
+* FIX: issue with recurring schedules not stopping properly.
+* UPDATE: minor textual changes.
+* UPDATE: update .pot file.
+
+2.2.0
+=================================
+* NEW: Compatibility with Subscription Invoices Extension v1.0.0.
+* UPDATE: minor HTML cleanup.
+* UPDATE: add missing string to .pot file for translation.
+* UPDATE: update updater, yet again.
+
+2.1.8
+=================================
+* FIX: minor fix for legacy PHP versions < 5.5 support.
+* UPDATE: update updater, again.
+
+2.1.7
+=================================
+* UPDATE: compatibility with Sliced Invoices v3.3.0.
+* UPDATE: update updater.
+* UPDATE: update .pot file for translations.
+* FIX: fix PHP notice.
+
+2.1.6
+=================================
+* FIX: timezone issue.
+
+2.1.5
+=================================
+* NEW: Sliced Cron Bot feature (may help if you're having trouble with recurring invoices not sending on schedule).
+* FIX: issue with duplicate recurring invoices.
+
+2.1.4
+=================================
+* NEW: Preview upcoming invoice and optionally make changes prior to being automatically sent.
+
+2.1.3
+=================================
+* FIX: Issue with payment methods not copying across.
+* NEW: Create .po and .mo files ready for translation.
+
+2.1.2
+=================================
+* FIX: Undefined index notices within updater.
+
+2.1.1
+=================================
+* FIX: Error with invoices auto sending when set to not send.
+
+2.1.0
+=================================
+* NEW: Add licenses and one-click updates.
+
+2.0.1
+=================================
+* UPDATE: Change timestamp to local time.
+
+2.0.0
+=================================
+* UPDATE: Major overhaul including notifications, stopping and editing recurrences.
+
+1.0.2
+=================================
+* FIX: Change default status to unpaid for recurring invoices.
+
+1.0.1
+=================================
+* UPDATE: Force recurring invoices to use the sequential numbering. Required for EU.
+
+1.0.0
+=================================
+* Released.
