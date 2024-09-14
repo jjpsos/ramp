@@ -1,0 +1,302 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sliced Invoices Recurring\n"
+"POT-Creation-Date: 2022-05-26 03:49-0700\n"
+"PO-Revision-Date: 2017-01-27 11:09-0800\n"
+"Last-Translator: \n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-recurring.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:63
+msgid "Recurring Invoices"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:69
+msgid "Delay Invoice Number Assignment"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:70
+msgid "Don't assign future invoice number until scheduled invoice date"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:71
+msgid ""
+"Normally future invoice numbers are assigned in sequential order, at the "
+"time the invoice is generated.  If you check this box, future invoice "
+"numbers will instead be blank, and only assigned once the scheduled date is "
+"reached.  Use this if you want your invoice numbers to be not only "
+"sequential, but also in chronological order. (May be helpful in certain EU "
+"countries)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:76
+msgid "Sliced Cron Bot"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:77
+msgid "Remotely pings your site, ensuring your cron tasks run on schedule"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:78
+msgid ""
+"May help if you're having trouble with recurring invoices not sending on "
+"schedule. (requires active license)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:103
+#: admin/includes/class-sliced-invoices-recurring-admin.php:134
+#, php-format
+msgid "Recurring %s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:178
+msgid "Recurring"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:302
+msgid "Recurring Started"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:303
+#: admin/includes/class-sliced-invoices-recurring-admin.php:310
+#: admin/includes/class-sliced-invoices-recurring-admin.php:332
+#: admin/includes/class-sliced-invoices-recurring-admin.php:338
+#, php-format
+msgid "Invoice #%s in the series"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:309
+msgid "Recurring Stopped"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:331
+#, php-format
+msgctxt "% = date"
+msgid "Draft until %s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:461
+#, php-format
+msgid "Are you sure you want to stop these recurring %s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:545
+msgid "Recurring invoice successfully created."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:551
+msgid "Recurring invoices stopped."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:580
+msgid "Important!"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:580
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"recurring invoice."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:588
+msgid "Recur Every"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:593
+msgid "Day(s)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:594
+msgid "Month(s)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:595
+msgid "Year(s)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:602
+msgid "Next Invoice Date"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:649
+msgid "The next invoice in the series will be published on this date."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:655
+msgid "Send to Client"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:659
+msgid "Yes"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:660
+msgid "No"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:662
+msgid ""
+"Choosing yes will automatically send the 'Invoice Available' email to the "
+"client when the next invoice date is reached."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:678
+msgid "Save These Settings"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:702
+#, php-format
+msgid "<strong>%1s #%2s</strong> in the series</p>"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:711
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "<p>Next %1s will be published on:<br><strong>%2s (in %3s)</strong></p>"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:713
+#, php-format
+msgid "<p>Recurring frequency is every: <strong>%1s </strong></p>"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:715
+#, php-format
+msgid "<p>Automatically send to client: <strong>%1s </strong></p>"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:720
+msgid "Stop Recurring"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:722
+msgid "Edit Recurring"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:726
+#, php-format
+msgid ""
+"To edit the recurring schedule, <a href=\"%1s\">go to the parent %2s</a>."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:732
+msgid "Recurring Invoice"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:732
+msgid "Create Recurring Invoices"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-recurring-admin.php:747
+msgid ""
+"Recurring Invoice options will be displayed after you save this invoice."
+msgstr ""
+
+#: includes/class-sliced-recurring.php:377
+#, php-format
+msgid ""
+"Sliced Invoices Recurring extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr ""
+
+#: updater/plugin-updater.php:91 updater/plugin-updater.php:115
+msgid "Enter the License Key for this extension"
+msgstr ""
+
+#: updater/plugin-updater.php:131
+#, php-format
+msgid "License: %s"
+msgstr ""
+
+#: updater/plugin-updater.php:139
+msgid "Deactivate License"
+msgstr ""
+
+#: updater/plugin-updater.php:140
+msgid "Activate License"
+msgstr ""
+
+#: updater/plugin-updater.php:342
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+
+#: updater/plugin-updater.php:359
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+
+#: updater/plugin-updater.php:372
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+
+#: updater/plugin-updater.php:384
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Recurring"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/recurring-invoices/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create recurring invoices with the click of a button. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

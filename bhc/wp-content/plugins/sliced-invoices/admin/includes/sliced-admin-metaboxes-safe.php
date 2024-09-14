@@ -123,31 +123,7 @@ class Sliced_Metaboxes {
 		) );
 		
 		do_action( 'sliced_after_description', $description );
-                
-                // jjpsos start of my-metaboxes for payments Sept.5,24
-
-        	$select1 = new_cmb2_box( array(
-            		'id'           => $prefix . 'my_payments',
-            		'title'        => __( 'Payments', 'sliced-invoices' ),
-            		'object_types' => array( 'sliced_quote', 'sliced_invoice' ),
-            		'context'      => 'normal',
-            		'priority'     => 'high',
-        	) );
-        
-        	$select1->add_field( array(
-        		'name'             => esc_html__( 'Number_Of', 'cmb2' ),
-        		'desc'             => esc_html__( '', 'cmb2' ),
-        		'id'               => $prefix . 'my_payments',
-        		'type'             => 'select',
-        		'show_option_none' => true,
-        		'options'          => array(
-            		'two'   => esc_html__( 'Two', 'cmb2' ),
-            		'three'     => esc_html__( 'Three', 'cmb2' ),
-            		'five'     => esc_html__( 'Five', 'cmb2' ),
-        	),
-        	) );
-
-        	// jjpsos end		
+		
 
 		$line_items = new_cmb2_box( array(
 			'id'           => $prefix . 'line_items',

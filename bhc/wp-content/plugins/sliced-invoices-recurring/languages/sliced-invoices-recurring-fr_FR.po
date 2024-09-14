@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Sliced Invoices Recurring\n"
+"POT-Creation-Date: 2017-08-07 16:01+0700\n"
+"PO-Revision-Date: 2017-08-07 16:10+0700\n"
+"Language-Team: WebMat <contact@webmat.pro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sliced-invoices-recurring.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: WebMat <contact@webmat.pro>\n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-recurring.php:107
+msgid "Recurring Invoices"
+msgstr "Factures Récurentes"
+
+#: sliced-invoices-recurring.php:113
+msgid "Sliced Cron Bot"
+msgstr "Cron Bot Sliced"
+
+#: sliced-invoices-recurring.php:114
+msgid ""
+"Remotely pings your site's cron -- may help if you're having trouble with "
+"recurring invoices not sending on schedule. (requires active license)"
+msgstr ""
+"À distance, les pings cron de votre site--peuvent aider si vous rencontrez "
+"des problèmes avec des factures récurrentes non envoyés comme prévu. "
+"(nécessite une licence active)"
+
+#: sliced-invoices-recurring.php:146
+#, php-format
+msgid "Are you sure you want to stop these recurring %s"
+msgstr "Êtes-vous sûr de vouloir arrêter ces %s récurrentes"
+
+#: sliced-invoices-recurring.php:240
+#, php-format
+msgid "Recurring %s"
+msgstr "Récurrence %s"
+
+#: sliced-invoices-recurring.php:263
+#, php-format
+msgid "<strong>%1s #%2s</strong> in the series</p>"
+msgstr "<strong>%1s #%2s</strong> dans la série</p>"
+
+#: sliced-invoices-recurring.php:272
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "<p>Next %1s will be created:<br><strong>%2s (in %3s)</strong></p>"
+msgstr ""
+"<p>Les prochaines %1s seront créés :<br><strong>%2s (dans %3s)</strong></p>"
+
+#: sliced-invoices-recurring.php:274
+#, php-format
+msgid "<p>Recurring frequency is every: <strong>%1s </strong></p>"
+msgstr "<p>La fréquence récurrence est de : <strong>% 1s</strong></p>"
+
+#: sliced-invoices-recurring.php:276
+#, php-format
+msgid "<p>Automatically send to client: <strong>%1s </strong></p>"
+msgstr "<p>Envoyer automatiquement au client : <strong>% 1s</strong></p>"
+
+#: sliced-invoices-recurring.php:281
+msgid "Stop Recurring"
+msgstr "Arrêter Récurrence"
+
+#: sliced-invoices-recurring.php:283
+msgid "Edit Recurring"
+msgstr "Modifier Récurrence"
+
+#: sliced-invoices-recurring.php:292
+msgid "Recurring Invoice"
+msgstr "Facture Récurrente"
+
+#: sliced-invoices-recurring.php:292
+msgid "Create Recurring Invoices"
+msgstr "Créer des factures récurrentes"
+
+#: sliced-invoices-recurring.php:401
+msgid "Important!"
+msgstr "Important !"
+
+#: sliced-invoices-recurring.php:401
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"recurring invoice."
+msgstr ""
+"Veuillez vous assurer que toutes les modifications apportées à cette facture "
+"soient enregistrées avant de créer la facture récurrente."
+
+#: sliced-invoices-recurring.php:409
+msgid "Recur Every"
+msgstr "Répéter tous les"
+
+#: sliced-invoices-recurring.php:414
+msgid "Day(s)"
+msgstr "Jour(s)"
+
+#: sliced-invoices-recurring.php:415
+msgid "Month(s)"
+msgstr "Mois"
+
+#: sliced-invoices-recurring.php:416
+msgid "Year(s)"
+msgstr "Année(s)"
+
+#: sliced-invoices-recurring.php:423
+msgid "Next Invoice Date"
+msgstr "Prochaine date de facturation"
+
+#: sliced-invoices-recurring.php:475
+msgid "Send to Client"
+msgstr "Envoyer au client"
+
+#: sliced-invoices-recurring.php:479
+msgid "Yes"
+msgstr "Oui"
+
+#: sliced-invoices-recurring.php:480
+msgid "No"
+msgstr "Non"
+
+#: sliced-invoices-recurring.php:482
+msgid ""
+"Choosing yes will automatically send the 'Invoice Available' email to the "
+"client when the next invoice date is reached."
+msgstr ""
+"Choisir Oui enverra automatiquement l’email « Facture disponible » au client "
+"lorsque la prochaine date de facturation est arrivée."
+
+#: sliced-invoices-recurring.php:498
+msgid "Save These Settings"
+msgstr "Enregistrer ces Paramètres"
+
+#: sliced-invoices-recurring.php:733
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "Next in %s"
+msgstr "Prochaine dans %s"
+
+#: sliced-invoices-recurring.php:740
+msgid "Recurring Stopped"
+msgstr "Récurrence Arrêtée"
+
+#: sliced-invoices-recurring.php:812
+msgid "Recurring"
+msgstr "Récurrence"
+
+#: sliced-invoices-recurring.php:857
+msgid "Recurring invoice successfully created."
+msgstr "Facture récurrente créée avec succès."
+
+#: sliced-invoices-recurring.php:863
+msgid "Recurring invoices stopped."
+msgstr "Factures récurrentes arrêtées."
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Il y a une nouvelle version de %1$s disponible. %2$sVoir la version %3$s "
+"Détails %4$s."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Il y a une nouvelle version de%1$s disponible. %2$sVoir la version %3$s de "
+"détails de %4$s ou %5$s télécharger maintenant %6$s."
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n'avez pas la permission de mettre à jour des plugins"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Erreur"
+
+#: updater/plugin-updater.php:69 updater/plugin-updater.php:93
+msgid "Enter the License Key for this extension"
+msgstr "Entrer la clé de licence pour cette extension"
+
+#: updater/plugin-updater.php:109
+#, php-format
+msgid "License: %s"
+msgstr "Licence : %s"
+
+#: updater/plugin-updater.php:117
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: updater/plugin-updater.php:118
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Recurring"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/recurring-invoices/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create recurring invoices with the click of a button. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+"Créez des factures récurrentes avec un clic d’un bouton. Requis : "
+"L'extension Sliced Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

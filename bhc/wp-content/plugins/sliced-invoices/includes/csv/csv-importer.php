@@ -647,7 +647,7 @@ class Sliced_Csv_Importer {
 		if( ! email_exists( $client_array['email'] ) ) {
 
 			// generate random password jjpsos >>> wp_generate_password( 10, true, true )
-			$password = "secret";
+			$password = "BHC2022@MTL+";
 			// create the user
 			$client_id = wp_create_user( $client_array['name'], $password, $client_array['email'] );
 			// add the user meta

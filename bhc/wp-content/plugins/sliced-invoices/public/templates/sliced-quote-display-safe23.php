@@ -93,35 +93,16 @@ do_action( 'sliced_before_quote_display' ); ?><!doctype html>
 			</div>
 		</div><!-- END row -->
 
-
-                <div class="row sliced-footer">
-                <div class="col-sm-12">
-                <!-- jjpsos:  This is the hardwired display of default payments Sept.5,24 -->
+		<div class="row sliced-footer">
+			<div class="col-sm-12">
+			    <!-- jjpsos:  This is the hardwired display of default payments -->
                 <?php if ( sliced_get_quote_terms() == null ) : ?>
-                  
-                  <?php $jjp_payments = get_post_meta( sliced_get_quote_id(), '_sliced_my_payments', true ); ?>
-                  <?php switch ($jjp_payments) {
-                        case 'two':
-                            echo "Paiements:  *(2) Nov.1,2024 & Janv.15,2025 \n";
-                            break;
-                        case 'three':
-                            echo  "*(3) Nov.1,2024 & Janv.15,2025 & Mars 15,2025 \n";
-                            break;
-                        case 'five':
-                            echo "*(5) Dec.31,2024 & Janv.31,2025 & Fevr.31,2025 & Mars 31,2025 & Avril 31,2025 \n";
-                            break;
-                    } ?>       
+				     <div class="terms-text"><?php echo wpautop( "Paiements:  *(2) Nov.1,2023 & Janv.15,2024    *(3) Nov.1,2023 & Janv.15,2024 & Mars 15,2024 \n *(5) Dec.31,2023 & Janv.31,2024 & Fevr.31,2024 & Mars 31,2024 & Avril 31,2024" ); ?></div>
                 <?php else: ?>
-                        <?php echo sliced_get_quote_terms(); ?>
+                     <div class="terms-text"><?php echo wpautop( sliced_get_quote_terms() ); ?></div>
                 <?php endif; ?>
-                
-                <div class="terms-text"><?php echo "Veuillez accepter par voie électronique ET renvoyer une copie pdf avec l'approbation de la signature / Please accept electronically AND return pdf copy with signature approval." . PHP_EOL . "Robert Clarke (pres.) / Artisan B &amp; H (9030-6812 Qc.)" ; ?></div>
-                <img class="alignnone size-medium wp-image-3077" src="https://www.b-hinc.ca/wp-content/uploads/2023/08/RobertPlus.png" alt="R.C." width="300" height="54" /> 
-            
-                </div>
-                </div><!-- END row -->
-
-
+			</div>
+		</div><!-- END row -->
 		
 		<!-- ///// Start PDF footer -->
 		<htmlpagefooter name="sliced-pdf-footer">

@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Sliced Invoices Recurring\n"
+"POT-Creation-Date: 2017-07-15 18:28+0300\n"
+"PO-Revision-Date: 2017-07-15 20:29+0300\n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-recurring.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-recurring.php:107
+msgid "Recurring Invoices"
+msgstr "Повторювані рахунки"
+
+#: sliced-invoices-recurring.php:113
+msgid "Sliced Cron Bot"
+msgstr ""
+
+#: sliced-invoices-recurring.php:114
+msgid ""
+"Remotely pings your site's cron -- may help if you're having trouble with "
+"recurring invoices not sending on schedule. (requires active license)"
+msgstr ""
+"Віддалений пінг планувача задач cron — може допомогти, якщо виникають "
+"проблеми з рахунками, які повторюються за розкладом. (необхідна активована "
+"ліцензія)"
+
+#: sliced-invoices-recurring.php:146
+#, php-format
+msgid "Are you sure you want to stop these recurring %s"
+msgstr "Ви впевнені, що хочете припинити повтор %s"
+
+#: sliced-invoices-recurring.php:240
+#, php-format
+msgid "Recurring %s"
+msgstr "Повтор %s"
+
+#: sliced-invoices-recurring.php:263
+#, php-format
+msgid "<strong>%1s #%2s</strong> in the series</p>"
+msgstr ""
+
+#: sliced-invoices-recurring.php:272
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "<p>Next %1s will be created:<br><strong>%2s (in %3s)</strong></p>"
+msgstr "<p>Наступний %1s буде створено:<br><strong>%2s (в %3s)</strong></p>"
+
+#: sliced-invoices-recurring.php:274
+#, php-format
+msgid "<p>Recurring frequency is every: <strong>%1s </strong></p>"
+msgstr "<p>Частота повторення: <strong>%1s </strong></p>"
+
+#: sliced-invoices-recurring.php:276
+#, php-format
+msgid "<p>Automatically send to client: <strong>%1s </strong></p>"
+msgstr "<p>Автоматично відправляти клієнту: <strong>%1s </strong></p>"
+
+#: sliced-invoices-recurring.php:281
+msgid "Stop Recurring"
+msgstr "Припинити повторення"
+
+#: sliced-invoices-recurring.php:283
+msgid "Edit Recurring"
+msgstr "Відредагувати повторення"
+
+#: sliced-invoices-recurring.php:292
+msgid "Recurring Invoice"
+msgstr "Повторюваний рахунок"
+
+#: sliced-invoices-recurring.php:292
+msgid "Create Recurring Invoices"
+msgstr "Створити повторюваний рахунок"
+
+#: sliced-invoices-recurring.php:401
+msgid "Important!"
+msgstr "Важливо!"
+
+#: sliced-invoices-recurring.php:401
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"recurring invoice."
+msgstr ""
+"Перед створенням повторюваного рахунку, будь ласка, переконайтеся в тому, що "
+"усі зміни до цього рахунку було збережено."
+
+#: sliced-invoices-recurring.php:409
+msgid "Recur Every"
+msgstr "Повторювати кожні"
+
+#: sliced-invoices-recurring.php:414
+msgid "Day(s)"
+msgstr "День"
+
+#: sliced-invoices-recurring.php:415
+msgid "Month(s)"
+msgstr "Місяць"
+
+#: sliced-invoices-recurring.php:416
+msgid "Year(s)"
+msgstr "Рік"
+
+#: sliced-invoices-recurring.php:423
+msgid "Next Invoice Date"
+msgstr "Наступна дата"
+
+#: sliced-invoices-recurring.php:475
+msgid "Send to Client"
+msgstr "Надсилати клієнту"
+
+#: sliced-invoices-recurring.php:479
+msgid "Yes"
+msgstr "Так"
+
+#: sliced-invoices-recurring.php:480
+msgid "No"
+msgstr "Ні"
+
+#: sliced-invoices-recurring.php:482
+msgid ""
+"Choosing yes will automatically send the 'Invoice Available' email to the "
+"client when the next invoice date is reached."
+msgstr ""
+"Вибір \"Так\" відповідає за автоматичне відправлення повідомлення клієнту "
+"про наявність рахунку."
+
+#: sliced-invoices-recurring.php:498
+msgid "Save These Settings"
+msgstr "Зберегти"
+
+#: sliced-invoices-recurring.php:733
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "Next in %s"
+msgstr ""
+
+#: sliced-invoices-recurring.php:740
+msgid "Recurring Stopped"
+msgstr "Повторювання призупинено"
+
+#: sliced-invoices-recurring.php:812
+msgid "Recurring"
+msgstr "Повторення"
+
+#: sliced-invoices-recurring.php:857
+msgid "Recurring invoice successfully created."
+msgstr "Повторюваний рахунок було успішно збережено"
+
+#: sliced-invoices-recurring.php:863
+msgid "Recurring invoices stopped."
+msgstr "Повторюваний рахунок зупинено."
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Вийшла нова версія плагіну %1$s. %2$sДізнатись більше про %3$s %4$s."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Вийшла нова версія плагіну %1$s. %2$sДізнатись більше про %3$s %4$s або "
+"%5$sоновити зараз%6$s."
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+"У вас недостатньо повноважень для встановлення плагінів та оновлень до них"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Помилка"
+
+#: updater/plugin-updater.php:69 updater/plugin-updater.php:93
+msgid "Enter the License Key for this extension"
+msgstr "Введіть ліцензійний ключ"
+
+#: updater/plugin-updater.php:109
+#, php-format
+msgid "License: %s"
+msgstr "Ліцензія: %s"
+
+#: updater/plugin-updater.php:117
+msgid "Deactivate License"
+msgstr "Деактивувати ліцензію"
+
+#: updater/plugin-updater.php:118
+msgid "Activate License"
+msgstr "Активувати ліцензію"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Recurring"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/recurring-invoices/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create recurring invoices with the click of a button. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+"Створюйте повторювані рахунки одним натисканням миші. Для роботи необхідно "
+"мати встановлений плагін Sliced Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""
