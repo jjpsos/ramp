@@ -45,7 +45,8 @@ class Sliced_Invoices_Recurring_Admin {
 		add_action( 'load-edit.php', array( $this, 'edit_recurring_invoices' ) );
 		add_action( 'load-edit.php', array( $this, 'start_recurring_invoices' ) );
 		add_action( 'sliced_admin_col_after_invoice_number', array( $this, 'display_next_recurring_date' ) );
-		add_action( 'sliced_admin_col_views', array( $this, 'add_recurring_view_link' ) );
+		//jjpsos Sept.4,24 top-menu bug fix
+		//add_action( 'sliced_admin_col_views', array( $this, 'add_recurring_view_link' ) );
 		add_filter( 'request', array( $this, 'filter_recurring' ) );
 		add_filter( 'sliced_invoice_option_fields', array( $this, 'add_options_fields' ) );
 		
