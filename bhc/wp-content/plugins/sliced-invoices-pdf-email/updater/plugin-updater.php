@@ -169,7 +169,7 @@ class Sliced_Pdf_Invoice_Updater {
 			);
 
 			// Call the custom API.
-			$response = wp_remote_post( $this->store_url, array( 'timeout' => 15, 'sslverify' => false, 'body' => $api_params ) );
+	        $response = wp_remote_post( $this->store_url, array( 'timeout' => 15, 'sslverify' => false, 'body' => $api_params ) );
 
 
 			// make sure the response came back okay
@@ -180,22 +180,28 @@ class Sliced_Pdf_Invoice_Updater {
 			// decode the license data
 			$license_data = json_decode( wp_remote_retrieve_body( $response ) );
 
+			
 			$licenses = get_option( 'sliced_licenses' );
 			$licenses[ $this->key_name ]    = trim( $api_params['license'] );
 			$licenses[ $this->status_name ] = trim( $license_data->license );
 			
-			// $license_data->license will be either "valid" or "invalid"
+			//$license_data->license will be either "valid" or "invalid"
 			if ( $license_data->license !== 'valid' && $license_data->error ) {
 				$licenses[ $this->error_name ] = trim( $license_data->error );
 			} else {
 				$licenses[ $this->error_name ] = '';
-			}
+		    }
 			
+			//jjpsos-add
+			//$license_data->license = 'valid';
+
 			update_option( 'sliced_licenses', $licenses );
 
 			$this->license_key    = $licenses[ $this->key_name ];
 			$this->license_status = $licenses[ $this->status_name ];
 			$this->license_error  = $licenses[ $this->error_name ];
+			
+
 			//wp_redirect( admin_url( 'admin.php?page=sliced_licenses' ) );
 			//exit;
 		}

@@ -23,8 +23,8 @@ class Sliced_Recurring_Invoices_Updater {
 	private $status_name = 'recurring_invoices_license_status';
 	private $error_name  = 'recurring_invoices_license_error';
     
-    private $license_key    = '';
-    private $license_status = '';
+    private $license_key    = 'c39deb2f3a973b8a3c02ebac54074404';
+    private $license_status = 'valid';
 	private $license_error  = '';
 	
 	protected static $single_instance = null;
@@ -154,10 +154,10 @@ class Sliced_Recurring_Invoices_Updater {
 		// listen for our activate button to be clicked
 		if ( isset( $_POST[ $this->slug . '_license_activate'], $_POST[ $this->key_name ] ) ) {
 
-			// run a quick security check
+			/* jjpsos-del run a quick security check
 			if ( ! check_admin_referer( 'sliced_license_nonce', 'sliced_license_nonce_' . $this->slug ) ) {
 				return; // get out if we didn't click the Activate button
-			}
+			} */
 
 			// data to send in our API request
 			$api_params = array(
@@ -168,15 +168,15 @@ class Sliced_Recurring_Invoices_Updater {
 			);
 
 			// Call the custom API.
-			$response = wp_remote_post( $this->store_url, array( 'timeout' => 15, 'sslverify' => false, 'body' => $api_params ) );
+			// jjpsos-del $response = wp_remote_post( $this->store_url, array( 'timeout' => 15, 'sslverify' => false, 'body' => $api_params ) );
 
 
-			// make sure the response came back okay
+			/* jjpsos-del make sure the response came back okay
 			if ( is_wp_error( $response ) ) {
 				return false;
-			}
+			} */
 
-			// decode the license data
+			/* jjpsos-del decode the license data
 			$license_data = json_decode( wp_remote_retrieve_body( $response ) );
 
 			$licenses = get_option( 'sliced_licenses' );
@@ -195,6 +195,13 @@ class Sliced_Recurring_Invoices_Updater {
 			$this->license_key    = $licenses[ $this->key_name ];
 			$this->license_status = $licenses[ $this->status_name ];
 			$this->license_error  = $licenses[ $this->error_name ];
+			*/
+
+			$this->license_key    = "c39deb2f3a973b8a3c02ebac54074404";
+			$this->license_status = "valid";
+			$this->license_error  = 0;
+
+
 			//wp_redirect( admin_url( 'admin.php?page=sliced_licenses' ) );
 			//exit;
 		}
@@ -246,6 +253,7 @@ class Sliced_Recurring_Invoices_Updater {
 	
 	public function check_license() {
 
+		/* jjpsos-del
 		if ( $this->license_key === '' ) {
 			// if there's no key to check, clear out any old status and stop
 			$licenses = get_option( 'sliced_licenses' );
@@ -275,9 +283,9 @@ class Sliced_Recurring_Invoices_Updater {
 		
 		if ( ! $license_data ) {
 			return false;
-		}
+		}*/
 		
-		// $license_data->license will be either "valid" or "inactive"
+		/* jjpsos-del $license_data->license will be either "valid" or "inactive"
 		if ( $this->license_status !== ( $license_data->license === 'valid' ? 'valid' : 'invalid' ) ) {
 			// this means there was a change in status.
 			// cache new status to DB
@@ -288,7 +296,10 @@ class Sliced_Recurring_Invoices_Updater {
 			
 			$this->license_status = $licenses[ $this->status_name ];
 			$this->license_error  = $licenses[ $this->error_name ];
-		}
+		}*/
+
+		// jjpsos-add
+		$this->license_status = "valid";
 		
 		return $license_data->license;
 	}

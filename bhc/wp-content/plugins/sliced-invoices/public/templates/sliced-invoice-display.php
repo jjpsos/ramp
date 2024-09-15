@@ -1,3 +1,5 @@
+
+
 <?php if ( ! defined('ABSPATH') ) {
 	exit;
 }
@@ -14,6 +16,7 @@
 
 do_action( 'sliced_before_invoice_display' ); ?><!doctype html>
 <html <?php language_attributes(); ?>>
+
 <head>
 	<meta charset="UTF-8">
 	<title><?php wp_title() ?></title>
@@ -43,7 +46,7 @@ do_action( 'sliced_before_invoice_display' ); ?><!doctype html>
 
 			<div class="row sliced-header">
 				<div class="col-xs-12 col-sm-6 sliced-business">
-					<?php sliced_display_business(); ?>
+			       <?php //jjpsos-bug sliced_display_business(); ?>
 				</div>
 
 				<div class="col-xs-12 col-sm-6 sliced-title">
